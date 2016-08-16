@@ -1,0 +1,2473 @@
+{
+    "agency": {
+        "country": " ",
+        "lastName": null,
+        "notes": null,
+        "city": "New york",
+        "agencyId": "N212684251",
+        "type": {
+            "id": 1
+        },
+        "markupExceptions": [],
+        "markups": [{
+            "netExceptions": "",
+            "pubWithCommExceptions": "",
+            "agency": {
+                "id": 18564
+            },
+            "netMarkUp": "$0",
+            "pubNoComm": "$0",
+            "id": 900,
+            "pubWithComm": "$0"
+        }],
+        "aptSuite": "STE 600",
+        "contact": null,
+        "id": 18564,
+        "state": "NY",
+        "fax": null,
+        "email": "INFO@MPRTRAVEL.COM",
+        "zip": "10001.0",
+        "address": "39 W 32 St",
+        "agencyGroup": {
+            "id": 76
+        },
+        "profileNumber": "61276",
+        "altId": null,
+        "searchable": true,
+        "abnVatNumber": null,
+        "agents": [],
+        "firstName": null,
+        "phone": null,
+        "name": "MPR TRAVEL-ACH DEPOSIT"
+    },
+    "pnr": {
+        "agent": null,
+        "commPricing": {
+            "totalAmount": 1200.32,
+            "breakdown": [{
+                "FreeBaggageAllowance": "PC002",
+                "Departure": {
+                    "CityCode": "KHI",
+                    "AirlineCode": "QR",
+                    "AirportCode": "KHI",
+                    "ArrivalCityCode": "DOH",
+                    "GenericInd": "X",
+                    "ArrivalAirportCode": "DOH"
+                },
+                "Branch": {
+                    "PCC": "WR17"
+                },
+                "FareBasis": {
+                    "FilingCarrier": "QR",
+                    "TicketDesignator": "CM05",
+                    "Code": "OJPKP1NX/CM05"
+                }
+            }, {
+                "FreeBaggageAllowance": "PC002",
+                "Departure": {
+                    "CityCode": "DOH",
+                    "AirlineCode": "QR",
+                    "AirportCode": "DOH",
+                    "ArrivalCityCode": "NYC",
+                    "GenericInd": "O",
+                    "ArrivalAirportCode": "JFK"
+                },
+                "Branch": {
+                    "PCC": "WR17",
+                    "FirstJointCarrier": "QR"
+                },
+                "FareBasis": {
+                    "FilingCarrier": "QR",
+                    "TicketDesignator": "CM05",
+                    "FarePassengerType": "ADT",
+                    "TripTypeInd": "R",
+                    "Cabin": "Y",
+                    "FareType": "N",
+                    "CorporateID": "COM",
+                    "FareAmount": 145.77,
+                    "Code": "OJPKP1NX/CM05",
+                    "GlobalInd": "AT",
+                    "Market": "KHINYC"
+                },
+                "RuleCategoryIndicator": [1, 4, 14, 15, 25, 35]
+            }, {
+                "FreeBaggageAllowance": "PC002",
+                "Departure": {
+                    "CityCode": "NYC",
+                    "AirlineCode": "QR",
+                    "AirportCode": "JFK",
+                    "ArrivalCityCode": "DOH",
+                    "GenericInd": "X",
+                    "ArrivalAirportCode": "DOH"
+                },
+                "Branch": {
+                    "PCC": "WR17"
+                },
+                "FareBasis": {
+                    "FilingCarrier": "QR",
+                    "TicketDesignator": "CM05",
+                    "Code": "OJPKP1NX/CM05"
+                }
+            }, {
+                "FreeBaggageAllowance": "PC002",
+                "Departure": {
+                    "CityCode": "DOH",
+                    "AirlineCode": "QR",
+                    "AirportCode": "DOH",
+                    "ArrivalCityCode": "KHI",
+                    "GenericInd": "O",
+                    "ArrivalAirportCode": "KHI"
+                },
+                "Branch": {
+                    "PCC": "WR17",
+                    "FirstJointCarrier": "QR"
+                },
+                "FareBasis": {
+                    "FilingCarrier": "QR",
+                    "TicketDesignator": "CM05",
+                    "FarePassengerType": "ADT",
+                    "TripTypeInd": "R",
+                    "Cabin": "Y",
+                    "FareType": "N",
+                    "CorporateID": "COM",
+                    "FareAmount": 145.77,
+                    "Code": "OJPKP1NX/CM05",
+                    "GlobalInd": "AT",
+                    "Market": "KHINYC"
+                },
+                "RuleCategoryIndicator": [1, 4, 14, 15, 25, 35]
+            }],
+            "pricesPerType": [{
+                "totalCurrencyCode": "USD",
+                "totalAmount": 600.16,
+                "code": "ADT",
+                "quantity": 2,
+                "baseCurrencyCode": "PKR",
+                "baseAmountCommision": 1523.0000226944685,
+                "commissions": [0.05, 0.05, 0.05, 0.05],
+                "taxAmount": 305.16,
+                "baseAmount": 30460
+            }]
+        },
+        "TravelItineraryReadRS": {
+            "xmlns": "http://services.sabre.com/res/or/v1_4",
+            "Version": "3.6.0",
+            "xmlns:ns2": "http://services.sabre.com/STL_Header/v120",
+            "TravelItinerary": {
+                "ItineraryInfo": {
+                    "Ticketing": [{
+                        "TicketTimeLimit": "T-15AUG-T7IG*AAR",
+                        "RPH": "01"
+                    }, {
+                        "eTicketNumber": "TE 1577854395020-AT RANA/G T7IG*AAR 1641/15AUG",
+                        "RPH": "02"
+                    }, {
+                        "eTicketNumber": "TE 1577854395021-AT AKRAM/A T7IG*AAR 1641/15AUG",
+                        "RPH": "03"
+                    }, {
+                        "eTicketNumber": "TK 8900679620361-AT RANA/G T7IG*AAR 1641/15AUG D",
+                        "RPH": "04"
+                    }],
+                    "ItineraryPricing": {
+                        "PriceQuote": [{
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "CARRY ON ALLOWANCE", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA", "CT CARRIER", "CARRY ON CHARGES", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 5,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "P",
+                                    "Text": "T7IG WR17*AAR 1641/15AUG16",
+                                    "Source": "SYS"
+                                }
+                            },
+                            "RPH": 1,
+                            "via": "WR17*AAR",
+                            "pcc": "T7IG",
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "QR",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "ADT"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 598.16
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "158.40YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "14.50SP"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "48.30RG"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90XZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90YD"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "1.00PZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 304.16
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1196.32
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 608.32
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 60920
+                                            },
+                                            "EquivFare": {
+                                                "Amount": 588
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "PKR",
+                                            "Amount": 30460
+                                        },
+                                        "EquivFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 294
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "KHI QR X/DOH QR NYC145.78QR X/DOH QR KHI145.78NUC291.56END ROE104.452 XFJFK4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 605,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T04:25",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 605,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 701,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T08:10",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 701,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 702,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-07T21:15",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 702,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-07",
+                                                "NotValidBefore": "2017-02-07"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 604,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-08T20:50",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 604,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-08",
+                                                "NotValidBefore": "2017-02-08"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 15AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 15AUG"],
+                                        "TourCode": {
+                                            "Text": "USAN002"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "OJPKP1NX/OJPKP1NX/OJPKP1NX/OJPKP1NX"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CT CARRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "VALID ON QR SERVICES ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPAQR$KP5$ETR$UN*USAN002$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER SPECIFIED - QR",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPAQRKP5ETRUN*USAN002RQ",
+                                "StatusCode": "A"
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "USAN002",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "BT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": [{
+                                        "NameNumber": 1.01,
+                                        "content": "RANA/GUL E MS"
+                                    }, {
+                                        "NameNumber": 2.01,
+                                        "content": "AKRAM/ANUM MS"
+                                    }]
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": false,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1641/15AUG16",
+                            "commission": 5,
+                            "commissionPercent": 0.05,
+                            "totalWithCommission": 2121.16,
+                            "pricingType": "COMMISSION",
+                            "commissionAmount": 1523
+                        }, {
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "QR",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "ADT"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 598.16
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "158.40YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "14.50SP"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "48.30RG"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90XZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90YD"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "1.00PZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 304.16
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1196.32
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 608.32
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 60920
+                                            },
+                                            "EquivFare": {
+                                                "Amount": 588
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "PKR",
+                                            "Amount": 30460
+                                        },
+                                        "EquivFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 294
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "KHI QR X/DOH QR NYC145.77QR X/DOH QR KHI145.77NUC291.54END ROE104.452 XFJFK4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 605,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T04:25",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 605,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX/CM05"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 701,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T08:10",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 701,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX/CM05"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 702,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-07T21:15",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 702,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX/CM05"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-07",
+                                                "NotValidBefore": "2017-02-07"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 604,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-08T20:50",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 604,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX/CM05"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-08",
+                                                "NotValidBefore": "2017-02-08"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 15AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 15AUG"],
+                                        "TourCode": {
+                                            "Text": "USAN002"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "OJPKP1NX/CM05/OJPKP1NX/CM05/OJPKP1NX/CM05/OJPKP1NX/CM05"
+                                        },
+                                        "FareSource": "WC5B",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CT CARRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "VALID ON QR SERVICES ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "AUTO TICKETING NOT PERMITTED",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPAC*COM$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "XTKTC35 X",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - QR",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CORP ID/ACCNT CODE USED: COM",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "X",
+                                        "Text": "X"
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPAC*COMRQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 598.16
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YQ",
+                                                "Amount": 158.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 5.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "SP",
+                                                "Amount": 14.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RG",
+                                                "Amount": 48.3,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XZ",
+                                                "Amount": 9.9,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YD",
+                                                "Amount": 9.9,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "PZ",
+                                                "Amount": 1,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 4.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "KHI QR X/DOH QR NYC145.77QR X/DOH QR KHI145.77NUC291.54END ROE104.452 XFJFK4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 304.16
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "PKR",
+                                            "Amount": 30460
+                                        },
+                                        "EquivFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 294
+                                        }
+                                    },
+                                    "AccountCode": "COM"
+                                }
+                            },
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "CARRY ON ALLOWANCE", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA", "CT CARRIER", "CARRY ON CHARGES", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "HISTORY",
+                                    "ExpirationDateTime": "00:00",
+                                    "Text": "T7IG T7IG*AVN 1616/15AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    }
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "USAN002",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "BT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": true,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1616/15AUG16",
+                            "RPH": 2,
+                            "via": "T7IG*AVN",
+                            "pricingType": "PUBLIC"
+                        }, {
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE USED TO CALCULATE DISCOUNT", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS", "CARRY ON ALLOWANCE", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA", "CT CARRIER", "CARRY ON CHARGES", "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "HISTORY",
+                                    "CommissionAmount": 5,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "P",
+                                    "Text": "WR17 WR17*AWS 1621/15AUG16",
+                                    "Source": "SYS"
+                                }
+                            },
+                            "RPH": 3,
+                            "via": "WR17*AWS",
+                            "pcc": "WR17",
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "QR",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "ADT"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 598.16
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "158.40YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "14.50SP"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "48.30RG"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90XZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "9.90YD"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "1.00PZ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 304.16
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1196.32
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 608.32
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 60920
+                                            },
+                                            "EquivFare": {
+                                                "Amount": 588
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "PKR",
+                                            "Amount": 30460
+                                        },
+                                        "EquivFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 294
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "KHI QR X/DOH QR NYC145.78QR X/DOH QR KHI145.78NUC291.56END ROE104.452 XFJFK4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 605,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T04:25",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 605,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 701,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "12-14T08:10",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 701,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-14",
+                                                "NotValidBefore": "2016-12-14"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 702,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-07T21:15",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 702,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-07",
+                                                "NotValidBefore": "2017-02-07"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DOH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 604,
+                                                "Code": "QR"
+                                            },
+                                            "DepartureDateTime": "02-08T20:50",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 604,
+                                            "FareBasis": {
+                                                "Code": "OJPKP1NX"
+                                            },
+                                            "ResBookDesigCode": "O",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-02-08",
+                                                "NotValidBefore": "2017-02-08"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "KHI"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 15AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 15AUG"],
+                                        "TourCode": {
+                                            "Text": "NONE"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "OJPKP1NX/OJPKP1NX/OJPKP1NX/OJPKP1NX"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -KHIJFK-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -JFKKHI-02P/QR/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON ALLOWANCE UNKNOWN-CONTA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CT CARRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KHIDOH DOHJFK JFKDOH DOHKHI-QR-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "VALID ON QR SERVICES ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPKP5.0$UNONE$N2.01$P1ADT$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - QR",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPKP5.0UNONEN2.01P1ADTRQ",
+                                "StatusCode": "A"
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "NONE",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "BT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": false,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1621/15AUG16",
+                            "commission": 5,
+                            "commissionPercent": 0.05,
+                            "totalWithCommission": 2121.16,
+                            "pricingType": "COMMISSION",
+                            "commissionAmount": 1523
+                        }],
+                        "PriceQuoteTotals": {
+                            "TotalFare": {
+                                "Amount": 1196.32
+                            },
+                            "Taxes": {
+                                "Tax": {
+                                    "Amount": 608.32
+                                }
+                            },
+                            "BaseFare": {
+                                "Amount": 60920
+                            },
+                            "EquivFare": {
+                                "Amount": 588
+                            }
+                        }
+                    },
+                    "ReservationItems": {
+                        "Item": [{
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": "M",
+                                    "LocationCode": "KHI",
+                                    "Terminal": "JINNAH TERMINAL"
+                                },
+                                "UpdatedArrivalTime": "12-14T05:15",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 2.5,
+                                "ResBookDesigCode": "O",
+                                "SegmentNumber": "0001",
+                                "ArrivalDateTime": "12-14T05:15",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "LocationCode": "DOH"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 3,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0605",
+                                    "Code": "QR"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "12-14T04:25",
+                                "AirMilesFlown": "0977",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "008",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 332
+                                },
+                                "DepartureDateTime": "2016-12-14T04:25",
+                                "FlightNumber": "0605",
+                                "SupplierRef": {
+                                    "ID": "DCQR*2M44WE"
+                                },
+                                "hasStops": false,
+                                "dep": "14Dec",
+                                "dept": "04:25",
+                                "arr": "14Dec",
+                                "arrt": "05:15"
+                            },
+                            "RPH": 1
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "DOH"
+                                },
+                                "UpdatedArrivalTime": "12-14T14:30",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 14.2,
+                                "ResBookDesigCode": "O",
+                                "SegmentNumber": "0002",
+                                "ArrivalDateTime": "12-14T14:30",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "TerminalCode": 8,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 8"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 3,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0701",
+                                    "Code": "QR"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "12-14T08:10",
+                                "AirMilesFlown": 6704,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "008",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "77W"
+                                },
+                                "DepartureDateTime": "2016-12-14T08:10",
+                                "FlightNumber": "0701",
+                                "SupplierRef": {
+                                    "ID": "DCQR*2M44WE"
+                                },
+                                "hasStops": false,
+                                "dep": "14Dec",
+                                "dept": "08:10",
+                                "arr": "14Dec",
+                                "arrt": "14:30"
+                            },
+                            "RPH": 2
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 8,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 8"
+                                },
+                                "UpdatedArrivalTime": "02-08T17:35",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 12.2,
+                                "ResBookDesigCode": "O",
+                                "SegmentNumber": "0003",
+                                "ArrivalDateTime": "02-08T17:35",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "LocationCode": "DOH"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 2,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0702",
+                                    "Code": "QR"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "02-07T21:15",
+                                "AirMilesFlown": 6704,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "006",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "77W"
+                                },
+                                "DepartureDateTime": "2017-02-07T21:15",
+                                "FlightNumber": "0702",
+                                "SupplierRef": {
+                                    "ID": "DCQR*2M44WE"
+                                },
+                                "hasStops": false,
+                                "dep": "07Feb",
+                                "dept": "21:15",
+                                "arr": "08Feb",
+                                "arrt": "17:35"
+                            },
+                            "RPH": 3
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "DOH"
+                                },
+                                "UpdatedArrivalTime": "02-09T01:10",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 2.2,
+                                "ResBookDesigCode": "O",
+                                "SegmentNumber": "0004",
+                                "ArrivalDateTime": "02-09T01:10",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "TerminalCode": "M",
+                                    "LocationCode": "KHI",
+                                    "Terminal": "JINNAH TERMINAL"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 3,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0604",
+                                    "Code": "QR"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "02-08T20:50",
+                                "AirMilesFlown": "0977",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "006",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 332
+                                },
+                                "DepartureDateTime": "2017-02-08T20:50",
+                                "FlightNumber": "0604",
+                                "SupplierRef": {
+                                    "ID": "DCQR*2M44WE"
+                                },
+                                "hasStops": false,
+                                "dep": "08Feb",
+                                "dept": "20:50",
+                                "arr": "09Feb",
+                                "arrt": "01:10"
+                            },
+                            "RPH": 4
+                        }, {
+                            "RPH": 5,
+                            "MiscSegment": {
+                                "SegmentNumber": "0005",
+                                "Status": "GK",
+                                "IsPast": false,
+                                "OriginLocation": {
+                                    "LocationCode": "KHI"
+                                },
+                                "Type": "OTH",
+                                "DayOfWeekInd": 6,
+                                "DepartureDateTime": "07-01",
+                                "NumberInParty": "01",
+                                "Text": ["HK//", "THANK YOU FOR YOUR BUSINESS"],
+                                "Vendor": {
+                                    "Code": "YY"
+                                }
+                            }
+                        }, {
+                            "RPH": 6,
+                            "MiscSegment": {
+                                "SegmentNumber": "0006",
+                                "Status": "GK",
+                                "IsPast": false,
+                                "OriginLocation": {
+                                    "LocationCode": "NYC"
+                                },
+                                "Type": "OTH",
+                                "DayOfWeekInd": 6,
+                                "DepartureDateTime": "07-15",
+                                "NumberInParty": "01",
+                                "Text": ["MPR", "SPCL"],
+                                "Vendor": {
+                                    "Code": "ZZ"
+                                }
+                            }
+                        }, {
+                            "RPH": 7,
+                            "Seats": {
+                                "Seat": [{
+                                    "SegmentNumber": "0001",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "KHI"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "DOH"
+                                        }
+                                    },
+                                    "Number": "37J",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "AHM"
+                                }, {
+                                    "SegmentNumber": "0001",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "KHI"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "DOH"
+                                        }
+                                    },
+                                    "Number": "37K",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "WM"
+                                }, {
+                                    "SegmentNumber": "0002",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "DOH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "JFK"
+                                        }
+                                    },
+                                    "Number": "11D",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "AHMO"
+                                }, {
+                                    "SegmentNumber": "0002",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "DOH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "JFK"
+                                        }
+                                    },
+                                    "Number": "11E",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "MO"
+                                }, {
+                                    "SegmentNumber": "0003",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "JFK"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "DOH"
+                                        }
+                                    },
+                                    "Number": "19A",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "WMO"
+                                }, {
+                                    "SegmentNumber": "0003",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "JFK"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "DOH"
+                                        }
+                                    },
+                                    "Number": "19B",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "MO"
+                                }, {
+                                    "SegmentNumber": "0004",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "DOH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "KHI"
+                                        }
+                                    },
+                                    "Number": "29A",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "WM"
+                                }, {
+                                    "SegmentNumber": "0004",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "DOH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "KHI"
+                                        }
+                                    },
+                                    "Number": "29B",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "AHM"
+                                }]
+                            }
+                        }]
+                    }
+                },
+                "AccountingInfo": [{
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "5XXXXXXXXXXX8547",
+                                    "Code": "CA"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 14.7
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 1.1,
+                        "content": "RANA GUL E MS"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 304.16
+                        }
+                    },
+                    "Airline": {
+                        "Code": "QR"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "Amount": 294
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854395020
+                        }
+                    }
+                }, {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "5XXXXXXXXXXX8547",
+                                    "Code": "CA"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 14.7
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 2.1,
+                        "content": "AKRAM ANUM MS"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 304.16
+                        }
+                    },
+                    "Airline": {
+                        "Code": "QR"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "Amount": 294
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854395021
+                        }
+                    }
+                }, {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "5XXXXXXXXXXX8547",
+                                    "Code": "CA"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 22.85
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 1.1,
+                        "content": "RANA GUL E MS"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 0
+                        }
+                    },
+                    "Airline": {
+                        "Code": "XD"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "Amount": 23.68
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": false
+                        },
+                        "TariffBasis": "D"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": "0679620361"
+                        }
+                    }
+                }, {
+                    "Type": "L",
+                    "PersonName": {
+                        "NameNumber": 1.1
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 0
+                        }
+                    },
+                    "ChargeCategory": "DIS",
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "Amount": 22
+                    },
+                    "AccountVendor": {
+                        "Code": "REBATE"
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "eTicket": {
+                            "Ind": false
+                        }
+                    }
+                }],
+                "ItineraryRef": {
+                    "PrimeHostID": "1S",
+                    "InhibitCode": "U",
+                    "CustomerIdentifier": "N212684251",
+                    "ID": "MKKNNL",
+                    "AirExtras": false,
+                    "PartitionID": "AA",
+                    "Source": {
+                        "HomePseudoCityCode": "83K2",
+                        "LastUpdateDateTime": "2016-08-15T15:52",
+                        "ReceivedFrom": "TA/83K2",
+                        "CreateDateTime": "2016-08-15T14:10",
+                        "SequenceNumber": 24,
+                        "AAA_PseudoCityCode": "WR17",
+                        "CreationAgent": "AKM",
+                        "PseudoCityCode": "83K2"
+                    }
+                },
+                "CustomerInfo": {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": {
+                                "Text": "*CA5XXXXXXXXXXX8547¥08/20",
+                                "RPH": "001"
+                            },
+                            "CC_Info": {
+                                "PreferredCustomer": "PREFERRED CUSTOMER STATUS - AUTO AVS NOT REQUESTED"
+                            }
+                        }
+                    },
+                    "PersonName": [{
+                        "Email": ["SAMMY4683@HOTMAIL.COM", "SAMMY4683@HOTMAIL.COM"],
+                        "tsa": "HK1/DB/09MAR1958/F/RANA/GUL E MS",
+                        "netType": "JCB",
+                        "GivenName": "GUL E MS",
+                        "WithInfant": false,
+                        "RPH": 1,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "RANA/GUL E MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1/DB/09MAR1958/F/RANA/GUL E MS"
+                            },
+                            "RPH": "001"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "RANA/GUL E MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 KHIDOH0605O14DEC/1577854395020C1"
+                            },
+                            "RPH": "003"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "RANA/GUL E MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 DOHJFK0701O14DEC/1577854395020C2"
+                            },
+                            "RPH": "004"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "RANA/GUL E MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 JFKDOH0702O07FEB/1577854395020C3"
+                            },
+                            "RPH": "005"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "RANA/GUL E MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 DOHKHI0604O08FEB/1577854395020C4"
+                            },
+                            "RPH": "006"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 1.01,
+                        "commType": "ADT",
+                        "dob": "09MAR1958",
+                        "sage": "58",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "RANA",
+                        "age": 58,
+                        "child": false
+                    }, {
+                        "Email": ["SAMMY4683@HOTMAIL.COM", "SAMMY4683@HOTMAIL.COM"],
+                        "tsa": "HK1/DB/28FEB1993/F/AKRAM/ANUM MS",
+                        "netType": "JCB",
+                        "GivenName": "ANUM MS",
+                        "WithInfant": false,
+                        "RPH": 2,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "AKRAM/ANUM MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1/DB/28FEB1993/F/AKRAM/ANUM MS"
+                            },
+                            "RPH": "002"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "AKRAM/ANUM MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 KHIDOH0605O14DEC/1577854395021C1"
+                            },
+                            "RPH": "007"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "AKRAM/ANUM MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 DOHJFK0701O14DEC/1577854395021C2"
+                            },
+                            "RPH": "008"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "AKRAM/ANUM MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 JFKDOH0702O07FEB/1577854395021C3"
+                            },
+                            "RPH": "009"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "AKRAM/ANUM MS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "QR"
+                                },
+                                "Text": "HK1 DOHKHI0604O08FEB/1577854395021C4"
+                            },
+                            "RPH": "010"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 2.01,
+                        "commType": "ADT",
+                        "dob": "28FEB1993",
+                        "sage": "23",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "AKRAM",
+                        "age": 23,
+                        "child": false
+                    }],
+                    "ContactNumbers": {
+                        "ContactNumber": [{
+                            "Phone": "917-640-2280 SAMAN",
+                            "LocationCode": "NYC",
+                            "RPH": "001"
+                        }, {
+                            "Phone": "212-684-2510MPR TRAVEL-KHAWAJA",
+                            "LocationCode": "NYC",
+                            "RPH": "002"
+                        }]
+                    }
+                },
+                "SpecialServiceInfo": [{
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S PLS TICKET BY 2359/17AUG2016 LCLT AT BOARD POINT OR QR WILL CXL"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S TKNA/TKNM/FA PT/FH TKT ENTRY PROHIBITED FOR BSP/ARC/EDIRECT MRKT"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S TICKETING DEADLINE IN FARE RULE MUST BE OBSERVED IF MORE RESTRICTIVE"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S - PLS PROVIDE FULL SECURE FLIGHT DATA /"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S APIS IN DOCA/DOCO/DOCS AND ACTION URGENTLY."
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S FOR USA FLTS QR RESERVES THE RIGHT TO CANCEL"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1/DB/09MAR1958/F/RANA/GUL E MS"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1/DB/28FEB1993/F/AKRAM/ANUM MS"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 KHIDOH0605O14DEC/1577854395020C1"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHJFK0701O14DEC/1577854395020C2"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 JFKDOH0702O07FEB/1577854395020C3"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHKHI0604O08FEB/1577854395020C4"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 KHIDOH0605O14DEC/1577854395021C1"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHJFK0701O14DEC/1577854395021C2"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 JFKDOH0702O07FEB/1577854395021C3"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHKHI0604O08FEB/1577854395021C4"
+                    },
+                    "RPH": "010"
+                }],
+                "RemarkInfo": {
+                    "Remark": [{
+                        "Type": "Client Address",
+                        "Text": "CHARGED AMOUNT 610",
+                        "RPH": "002"
+                    }, {
+                        "Type": "Invoice",
+                        "Text": "S*UD25 P",
+                        "RPH": "003"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-MSTR/IK8547/15AUG/01311471293703048151",
+                        "RPH": "004"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-APV/59491Z/00/USD1196.32",
+                        "RPH": "005"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-CSC NOT SUPPLIED/",
+                        "RPH": "006"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-AVS NOT SUPPORTED/",
+                        "RPH": "007"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "XXAUTH/59491Z/CA5XXXXXXXXXXX8547/QR/USD1196.32/15AUG/S",
+                        "RPH": "008"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-MSTR/IK8547/15AUG/01311471293717939250",
+                        "RPH": "009"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-APV/73155Z/00/USD23.68",
+                        "RPH": "010"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-CSC NOT SUPPLIED/",
+                        "RPH": "011"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-AVS NOT SUPPORTED/",
+                        "RPH": "012"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "REV ADV SF/CA5XXXXXXXXXXX8547/AUTH73155Z/USD23.68/15AUG",
+                        "RPH": "013"
+                    }, {
+                        "Type": "Alpha-Coded",
+                        "Text": "15AUG/0445 PM/ITIN SENT TO MAIL SERVER FOR PROCESSING",
+                        "RPH": "014",
+                        "Code": "Q"
+                    }]
+                }
+            },
+            "ApplicationResults": {
+                "Success": {
+                    "timeStamp": "2016-08-16T12:28:49.048-05:00"
+                },
+                "status": "Complete"
+            },
+            "xmlns:ns3": "http://services.sabre.com/res/tir/v3_6",
+            "xmlns:ns4": "http://services.sabre.com/STL/v01"
+        },
+        "pnrNumber": "MKKNNL",
+        "error": false,
+        "hasTSA": true,
+        "displayQuotes": true,
+        "persons": {
+            "NN_1.01": {
+                "Email": ["SAMMY4683@HOTMAIL.COM", "SAMMY4683@HOTMAIL.COM"],
+                "tsa": "HK1/DB/09MAR1958/F/RANA/GUL E MS",
+                "netType": "JCB",
+                "GivenName": "GUL E MS",
+                "WithInfant": false,
+                "RPH": 1,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1/DB/09MAR1958/F/RANA/GUL E MS"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 KHIDOH0605O14DEC/1577854395020C1"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHJFK0701O14DEC/1577854395020C2"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 JFKDOH0702O07FEB/1577854395020C3"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "RANA/GUL E MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHKHI0604O08FEB/1577854395020C4"
+                    },
+                    "RPH": "006"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 1.01,
+                "commType": "ADT",
+                "dob": "09MAR1958",
+                "sage": "58",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "RANA",
+                "age": 58,
+                "child": false
+            },
+            "NN_2.01": {
+                "Email": ["SAMMY4683@HOTMAIL.COM", "SAMMY4683@HOTMAIL.COM"],
+                "tsa": "HK1/DB/28FEB1993/F/AKRAM/ANUM MS",
+                "netType": "JCB",
+                "GivenName": "ANUM MS",
+                "WithInfant": false,
+                "RPH": 2,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1/DB/28FEB1993/F/AKRAM/ANUM MS"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 KHIDOH0605O14DEC/1577854395021C1"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHJFK0701O14DEC/1577854395021C2"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 JFKDOH0702O07FEB/1577854395021C3"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "AKRAM/ANUM MS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "QR"
+                        },
+                        "Text": "HK1 DOHKHI0604O08FEB/1577854395021C4"
+                    },
+                    "RPH": "010"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 2.01,
+                "commType": "ADT",
+                "dob": "28FEB1993",
+                "sage": "23",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "AKRAM",
+                "age": 23,
+                "child": false
+            }
+        },
+        "hasItinerary": true,
+        "hasTSAFailureCount": 0,
+        "hasFormOfPayment": true
+    },
+    "validations": [{
+        "passed": true,
+        "message": "Travel Agency Match: N212684251",
+        "id": 0
+    }, {
+        "passed": false,
+        "message": "Travel Agent Match: TA/83K2/83K2",
+        "id": 1
+    }, {
+        "passed": true,
+        "message": "TSA Info for 1.01 RANA/GUL E MS",
+        "id": 2
+    }, {
+        "passed": true,
+        "message": "TSA Info for 2.01 AKRAM/ANUM MS",
+        "id": 3
+    }, {
+        "passed": true,
+        "message": "Payment Info  *CA5XXXXXXXXXXX8547¥08/20",
+        "id": 4
+    }],
+    "errors": []
+}
