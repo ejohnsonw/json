@@ -1,0 +1,2409 @@
+{
+    "agency": {
+        "country": " ",
+        "lastName": null,
+        "notes": "STE 920",
+        "city": "New York",
+        "agencyId": "N212695583",
+        "type": {
+            "id": 1
+        },
+        "markupExceptions": [],
+        "markups": [{
+            "netExceptions": "",
+            "pubWithCommExceptions": "",
+            "agency": {
+                "id": 17874
+            },
+            "netMarkUp": "$0",
+            "pubNoComm": "$0",
+            "id": 902,
+            "pubWithComm": "$0"
+        }],
+        "aptSuite": null,
+        "contact": null,
+        "id": 17874,
+        "state": "NY",
+        "fax": "+1 (212) 760-1494",
+        "email": "shellawalia@msn.com",
+        "zip": "10001.0",
+        "address": "19 West 34th St",
+        "agencyGroup": {
+            "id": 76
+        },
+        "profileNumber": "54896",
+        "altId": null,
+        "searchable": true,
+        "abnVatNumber": null,
+        "agents": [],
+        "firstName": null,
+        "phone": "+1 (212) 695-5832",
+        "name": "BOLLYWOOD TRAVEL - ACH DEPOSIT"
+    },
+    "pnr": {
+        "agent": null,
+        "TravelItineraryReadRS": {
+            "xmlns": "http://services.sabre.com/res/or/v1_4",
+            "Version": "3.6.0",
+            "xmlns:ns2": "http://services.sabre.com/STL_Header/v120",
+            "TravelItinerary": {
+                "ItineraryInfo": {
+                    "Ticketing": [{
+                        "TicketTimeLimit": "T-16AUG-T7IG*AVN",
+                        "RPH": "01"
+                    }, {
+                        "eTicketNumber": "TE 0067854578099/00-AT SINGH/R T7IG*AVN 1210/16AUG",
+                        "RPH": "02"
+                    }, {
+                        "eTicketNumber": "TE 0067854578101/02-AT KAUR/V T7IG*AVN 1210/16AUG",
+                        "RPH": "03"
+                    }, {
+                        "eTicketNumber": "TK 8900679660357-AT SINGH/R T7IG*AVN 1211/16AUG D",
+                        "RPH": "04"
+                    }],
+                    "ItineraryPricing": {
+                        "PriceQuote": [{
+                            "pcc": "W4FF",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "DL",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 805.75
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "540.00YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.20AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.20CJ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.00RN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "1.20VV"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.74WO"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "46.85IN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 694.75
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1611.5
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 1389.5
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 222
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 111
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "CMH KL X/DTT KL X/AMS KL DEL M55.57KL X/AMS KL X/DTT KL CMH M55.57NUC111.14END ROE1.00 XFCMH4.5DTW4.5DTW4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6871,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-01T18:35",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 6871,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-01",
+                                                "NotValidBefore": "2016-11-01"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DTW"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6048,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-01T21:53",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 6048,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-01",
+                                                "NotValidBefore": "2016-11-01"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "AMS"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 871,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-02T12:45",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 871,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-02",
+                                                "NotValidBefore": "2016-11-02"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DEL"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 872,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T03:15",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 872,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 5,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "AMS"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6051,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T10:45",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 6051,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 6,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DTW"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 7824,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T15:20",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 7824,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 17AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 17AUG"],
+                                        "FareBasis": {
+                                            "Code": "VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -CMHDEL-01P/KL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-CMHDEL-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -DELCMH-01P/KL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-DELCMH-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWAMS AMSDTW DTWCMH-01P/DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/CARRY ON HAND BAGGAGE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMSDEL DELAMS-01P/KL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 26 POUNDS/12 KILOGRAMS AND UP TO 45 LINEAR INCHES/115",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWAMS AMSDTW DTWCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMSDEL DELAMS-KL-CARRY ON FEES UNKNOWN-CONTACT CARRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "EMBARGOES-APPLY TO EACH PASSENGER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWCMH-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "DTWAMS AMSDTW-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONEND/NONREF/L-9646/LN65",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPPJCB$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - DL PER GSA AGREEMENT WITH KL",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPPJCBRQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 805.75
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YR",
+                                                "Amount": 540,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 11.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "CJ",
+                                                "Amount": 13.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RN",
+                                                "Amount": 13,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "VV",
+                                                "Amount": 1.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "WO",
+                                                "Amount": 3.74,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IN",
+                                                "Amount": 46.85,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 13.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "CMH KL X/DTT KL X/AMS KL DEL M55.57KL X/AMS KL X/DTT KL CMH M55.57NUC111.14END ROE1.00 XFCMH4.5DTW4.5DTW4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 694.75
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 111
+                                        },
+                                        "Commission": {
+                                            "CurrencyCode": "USD",
+                                            "Percent": {
+                                                "Type": "NET",
+                                                "content": 0
+                                            },
+                                            "Amount": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -CMHDEL-01P/KL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-CMHDEL-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR", "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -DELCMH-01P/KL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-DELCMH-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR", "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "CMHDTW DTWAMS AMSDTW DTWCMH-01P/DL", "01/CARRY ON HAND BAGGAGE", "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS", "AMSDEL DELAMS-01P/KL", "01/UP TO 26 POUNDS/12 KILOGRAMS AND UP TO 45 LINEAR INCHES/115", "LINEAR CENTIMETERS", "CARRY ON CHARGES", "CMHDTW DTWAMS AMSDTW DTWCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "AMSDEL DELAMS-KL-CARRY ON FEES UNKNOWN-CONTACT CARRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./", "EMBARGOES-APPLY TO EACH PASSENGER", "CMHDTW DTWCMH-DL", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED", "DTWAMS AMSDTW-DL", "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 0,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "N",
+                                    "Text": "W4FF YU69*ANW 1047/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "IT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": [{
+                                        "NameNumber": 1.01,
+                                        "content": "SINGH/RAVINDER"
+                                    }, {
+                                        "NameNumber": 2.01,
+                                        "content": "KAUR/VEERPAL"
+                                    }]
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1047/16AUG16",
+                            "RPH": 1,
+                            "totalWithMarkup": 805.75,
+                            "via": "YU69*ANW",
+                            "pricingType": "NET",
+                            "base": 111
+                        }, {
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE USED TO CALCULATE DISCOUNT", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "DL",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 832.75
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "540.00YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.20AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.20CJ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.00RN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "1.20VV"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.74WO"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "46.85IN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 694.75
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1665.5
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 1389.5
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 276
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 138
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "CMH KL X/DTT KL X/AMS KL DEL M55.57KL X/AMS KL X/DTT KL CMH M55.57NUC111.14 PLUS27.00END ROE1.00 XFCMH4.5DTW4.5DTW4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6871,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-01T18:35",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 6871,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-01",
+                                                "NotValidBefore": "2016-11-01"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DTW"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6048,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-01T21:53",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 6048,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-01",
+                                                "NotValidBefore": "2016-11-01"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "AMS"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 871,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "11-02T12:45",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 871,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-11-02",
+                                                "NotValidBefore": "2016-11-02"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DEL"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 872,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T03:15",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 872,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 5,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "AMS"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 6051,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T10:45",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 6051,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 6,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "DTW"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 7824,
+                                                "Code": "KL"
+                                            },
+                                            "DepartureDateTime": "12-05T15:20",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 7824,
+                                            "FareBasis": {
+                                                "Code": "VLXOR7US/LN65"
+                                            },
+                                            "ResBookDesigCode": "V",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-05",
+                                                "NotValidBefore": "2016-12-05"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 17AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 17AUG"],
+                                        "FareBasis": {
+                                            "Code": "VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65/VLXOR7US/LN65"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -CMHDEL-01P/KL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-CMHDEL-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -DELCMH-01P/KL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-DELCMH-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWAMS AMSDTW DTWCMH-01P/DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/CARRY ON HAND BAGGAGE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMSDEL DELAMS-01P/KL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 26 POUNDS/12 KILOGRAMS AND UP TO 45 LINEAR INCHES/115",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWAMS AMSDTW DTWCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AMSDEL DELAMS-KL-CARRY ON FEES UNKNOWN-CONTACT CARRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "EMBARGOES-APPLY TO EACH PASSENGER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHDTW DTWCMH-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "DTWAMS AMSDTW-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONEND/NONREF/L-9646/LN65",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPK27.0$N2.01$P1JCB$PU*27.0$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - DL PER GSA AGREEMENT WITH KL",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 2,
+                                "InputMessage": "WPK27.0N2.01P1JCBPU*27.0RQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 832.75
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YR",
+                                                "Amount": 540,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 11.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "CJ",
+                                                "Amount": 13.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RN",
+                                                "Amount": 13,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "VV",
+                                                "Amount": 1.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "WO",
+                                                "Amount": 3.74,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IN",
+                                                "Amount": 46.85,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 13.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "CMH KL X/DTT KL X/AMS KL DEL M55.57KL X/AMS KL X/DTT KL CMH M55.57NUC111.14 PLUS27.00END ROE1.00 XFCMH4.5DTW4.5DTW4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 694.75
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 138
+                                        },
+                                        "Commission": {
+                                            "CurrencyCode": "USD",
+                                            "Percent": {
+                                                "Type": "NET",
+                                                "content": 0
+                                            },
+                                            "Amount": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "markup": 27,
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -CMHDEL-01P/KL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-CMHDEL-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR", "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -DELCMH-01P/KL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-DELCMH-USD75.00/KL/UP TO 50 POUNDS/23 KILOGR", "AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "CMHDTW DTWAMS AMSDTW DTWCMH-01P/DL", "01/CARRY ON HAND BAGGAGE", "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS", "AMSDEL DELAMS-01P/KL", "01/UP TO 26 POUNDS/12 KILOGRAMS AND UP TO 45 LINEAR INCHES/115", "LINEAR CENTIMETERS", "CARRY ON CHARGES", "CMHDTW DTWAMS AMSDTW DTWCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "AMSDEL DELAMS-KL-CARRY ON FEES UNKNOWN-CONTACT CARRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./", "EMBARGOES-APPLY TO EACH PASSENGER", "CMHDTW DTWCMH-DL", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED", "DTWAMS AMSDTW-DL", "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 0,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "N",
+                                    "Text": "T7IG T7IG*AWS 1152/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "IT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": [{
+                                        "NameNumber": 1.01,
+                                        "content": "SINGH/RAVINDER"
+                                    }, {
+                                        "NameNumber": 2.01,
+                                        "content": "KAUR/VEERPAL"
+                                    }]
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1152/16AUG16",
+                            "RPH": 2,
+                            "totalWithMarkup": 832.75,
+                            "via": "T7IG*AWS",
+                            "pricingType": "NET",
+                            "base": 111
+                        }],
+                        "PriceQuoteTotals": {
+                            "TotalFare": {
+                                "Amount": 3277
+                            },
+                            "Taxes": {
+                                "Tax": {
+                                    "Amount": 2779
+                                }
+                            },
+                            "BaseFare": {
+                                "Amount": 498
+                            }
+                        }
+                    },
+                    "ReservationItems": {
+                        "Item": [{
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "UpdatedArrivalTime": "11-01T19:37",
+                                "ConnectionInd": "O",
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 1.02,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0001",
+                                "ArrivalDateTime": "11-01T19:37",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "/SKYWEST DBA DELTA CONNECTION",
+                                    "FlightNumber": 6871,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "TerminalCode": "EM",
+                                    "LocationCode": "DTW"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 2,
+                                "MarketingAirline": {
+                                    "FlightNumber": 6871,
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY /SKYWEST DBA DELTA CONNECTION",
+                                "UpdatedDepartureTime": "11-01T18:35",
+                                "AirMilesFlown": "0155",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "004",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "CR9"
+                                },
+                                "DepartureDateTime": "2016-11-01T18:35",
+                                "FlightNumber": 6871,
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "01Nov",
+                                "dept": "18:35",
+                                "arr": "01Nov",
+                                "arrt": "19:37"
+                            },
+                            "RPH": 1
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": "EM",
+                                    "LocationCode": "DTW"
+                                },
+                                "UpdatedArrivalTime": "11-02T10:40",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "D"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 7.47,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0002",
+                                "ArrivalDateTime": "11-02T10:40",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "DELTA AIR LINES INC",
+                                    "FlightNumber": 6048,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "LocationCode": "AMS"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 2,
+                                "MarketingAirline": {
+                                    "FlightNumber": 6048,
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY DELTA AIR LINES INC",
+                                "UpdatedDepartureTime": "11-01T21:53",
+                                "AirMilesFlown": 3940,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "004",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 333
+                                },
+                                "DepartureDateTime": "2016-11-01T21:53",
+                                "FlightNumber": 6048,
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "01Nov",
+                                "dept": "21:53",
+                                "arr": "02Nov",
+                                "arrt": "10:40"
+                            },
+                            "RPH": 2
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "AMS"
+                                },
+                                "UpdatedArrivalTime": "11-03T01:00",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 7.45,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0003",
+                                "ArrivalDateTime": "11-03T01:00",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "TerminalCode": 3,
+                                    "LocationCode": "DEL",
+                                    "Terminal": "TERMINAL 3"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 3,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0871",
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "11-02T12:45",
+                                "AirMilesFlown": 3962,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "004",
+                                    "Sequence": 3,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 744
+                                },
+                                "DepartureDateTime": "2016-11-02T12:45",
+                                "FlightNumber": "0871",
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "02Nov",
+                                "dept": "12:45",
+                                "arr": "03Nov",
+                                "arrt": "01:00"
+                            },
+                            "RPH": 3
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 3,
+                                    "LocationCode": "DEL",
+                                    "Terminal": "TERMINAL 3"
+                                },
+                                "UpdatedArrivalTime": "12-05T07:25",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 8.4,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0004",
+                                "ArrivalDateTime": "12-05T07:25",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "LocationCode": "AMS"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 1,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0872",
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "12-05T03:15",
+                                "AirMilesFlown": 3962,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "008",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 744
+                                },
+                                "DepartureDateTime": "2016-12-05T03:15",
+                                "FlightNumber": "0872",
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "05Dec",
+                                "dept": "03:15",
+                                "arr": "05Dec",
+                                "arrt": "07:25"
+                            },
+                            "RPH": 4
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "AMS"
+                                },
+                                "UpdatedArrivalTime": "12-05T13:57",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "L"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 9.12,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0005",
+                                "ArrivalDateTime": "12-05T13:57",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "DELTA AIR LINES INC",
+                                    "FlightNumber": 6051,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "TerminalCode": "EM",
+                                    "LocationCode": "DTW"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 1,
+                                "MarketingAirline": {
+                                    "FlightNumber": 6051,
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY DELTA AIR LINES INC",
+                                "UpdatedDepartureTime": "12-05T10:45",
+                                "AirMilesFlown": 3940,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "008",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 333
+                                },
+                                "DepartureDateTime": "2016-12-05T10:45",
+                                "FlightNumber": 6051,
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "05Dec",
+                                "dept": "10:45",
+                                "arr": "05Dec",
+                                "arrt": "13:57"
+                            },
+                            "RPH": 5
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": "EM",
+                                    "LocationCode": "DTW"
+                                },
+                                "UpdatedArrivalTime": "12-05T16:16",
+                                "ConnectionInd": "I",
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 0.56,
+                                "ResBookDesigCode": "V",
+                                "SegmentNumber": "0006",
+                                "ArrivalDateTime": "12-05T16:16",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "/ENDEAVOR AIR DBA DELTA CONNECTION",
+                                    "FlightNumber": 7824,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 1,
+                                "MarketingAirline": {
+                                    "FlightNumber": 7824,
+                                    "Code": "KL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY /ENDEAVOR AIR DBA DELTA CONNECTION",
+                                "UpdatedDepartureTime": "12-05T15:20",
+                                "AirMilesFlown": "0155",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "008",
+                                    "Sequence": 3,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "CRJ"
+                                },
+                                "DepartureDateTime": "2016-12-05T15:20",
+                                "FlightNumber": 7824,
+                                "SupplierRef": {
+                                    "ID": "DCKL*2NFLQY"
+                                },
+                                "hasStops": false,
+                                "dep": "05Dec",
+                                "dept": "15:20",
+                                "arr": "05Dec",
+                                "arrt": "16:16"
+                            },
+                            "RPH": 6
+                        }, {
+                            "RPH": 7,
+                            "MiscSegment": {
+                                "SegmentNumber": "0007",
+                                "Status": "GK",
+                                "IsPast": false,
+                                "OriginLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "Type": "OTH",
+                                "DayOfWeekInd": 7,
+                                "DepartureDateTime": "07-02",
+                                "NumberInParty": "01",
+                                "Text": ["HK//", "THANK YOU FOR YOUR BUSINESS"],
+                                "Vendor": {
+                                    "Code": "YY"
+                                }
+                            }
+                        }]
+                    }
+                },
+                "AccountingInfo": [{
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "6XXXXXXXXXXX2662",
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 27
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 1.1,
+                        "content": "SINGH RAVINDER"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 694.75
+                        }
+                    },
+                    "Airline": {
+                        "Code": "DL"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "CurrencyCode": "USD",
+                        "Amount": 138
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 2
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854578099
+                        }
+                    }
+                }, {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "6XXXXXXXXXXX2662",
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 27
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 2.1,
+                        "content": "KAUR VEERPAL"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 694.75
+                        }
+                    },
+                    "Airline": {
+                        "Code": "DL"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "CurrencyCode": "USD",
+                        "Amount": 138
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 2
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854578101
+                        }
+                    }
+                }, {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "6XXXXXXXXXXX2662",
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 46.32
+                        }
+                    },
+                    "PersonName": "SINGH RAVINDER",
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 0
+                        }
+                    },
+                    "Airline": {
+                        "Code": "XD"
+                    },
+                    "FareApplication": "ALL",
+                    "BaseFare": {
+                        "Amount": 48
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": false
+                        },
+                        "TariffBasis": "D"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": "0679660357"
+                        }
+                    }
+                }],
+                "ItineraryRef": {
+                    "PrimeHostID": "1S",
+                    "InhibitCode": "U",
+                    "CustomerIdentifier": "N212695583",
+                    "ID": "MNMDIZ",
+                    "AirExtras": false,
+                    "PartitionID": "AA",
+                    "Source": {
+                        "HomePseudoCityCode": "YU69",
+                        "LastUpdateDateTime": "2016-08-16T11:12",
+                        "ReceivedFrom": "S",
+                        "CreateDateTime": "2016-08-15T14:45",
+                        "SequenceNumber": 15,
+                        "AAA_PseudoCityCode": "WR17",
+                        "CreationAgent": "ANW",
+                        "PseudoCityCode": "W4FF"
+                    }
+                },
+                "CustomerInfo": {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": {
+                                "Text": "*DS6XXXXXXXXXXX2662¥05/20",
+                                "RPH": "001"
+                            },
+                            "CC_Info": {
+                                "PreferredCustomer": "PREFERRED CUSTOMER STATUS - AUTO AVS NOT REQUESTED"
+                            }
+                        }
+                    },
+                    "PersonName": [{
+                        "Email": ["LIVERPOOLEXPRESS@ROADRUNNER.COM", "LIVERPOOLEXPRESS@ROADRUNER.COM"],
+                        "tsa": "HK1/DB/15AUG1967/M/SINGH/RAVINDER",
+                        "netType": "JCB",
+                        "GivenName": "RAVINDER",
+                        "WithInfant": false,
+                        "RPH": 1,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1/DB/15AUG1967/M/SINGH/RAVINDER"
+                            },
+                            "RPH": "001"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 CMHDTW6871V01NOV/0067854578099C1/099-100"
+                            },
+                            "RPH": "003"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DTWAMS6048V01NOV/0067854578099C2/099-100"
+                            },
+                            "RPH": "004"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 AMSDEL0871V02NOV/0067854578099C3/099-100"
+                            },
+                            "RPH": "005"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DELAMS0872V05DEC/0067854578099C4/099-100"
+                            },
+                            "RPH": "006"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 AMSDTW6051V05DEC/0067854578100C1/099-100"
+                            },
+                            "RPH": "007"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "SINGH/RAVINDER"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DTWCMH7824V05DEC/0067854578100C2/099-100"
+                            },
+                            "RPH": "008"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 1.01,
+                        "commType": "ADT",
+                        "dob": "15AUG1967",
+                        "sage": "49",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "SINGH",
+                        "age": 49,
+                        "child": false
+                    }, {
+                        "Email": ["LIVERPOOLEXPRESS@ROADRUNNER.COM", "LIVERPOOLEXPRESS@ROADRUNER.COM"],
+                        "tsa": "HK1/DB/24FEB1968/F/KAUR/VEERPAL",
+                        "netType": "JCB",
+                        "GivenName": "VEERPAL",
+                        "WithInfant": false,
+                        "RPH": 2,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1/DB/24FEB1968/F/KAUR/VEERPAL"
+                            },
+                            "RPH": "002"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 CMHDTW6871V01NOV/0067854578101C1/101-102"
+                            },
+                            "RPH": "009"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DTWAMS6048V01NOV/0067854578101C2/101-102"
+                            },
+                            "RPH": "010"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 AMSDEL0871V02NOV/0067854578101C3/101-102"
+                            },
+                            "RPH": "011"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DELAMS0872V05DEC/0067854578101C4/101-102"
+                            },
+                            "RPH": "012"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 AMSDTW6051V05DEC/0067854578102C1/101-102"
+                            },
+                            "RPH": "013"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "KAUR/VEERPAL"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "KL"
+                                },
+                                "Text": "HK1 DTWCMH7824V05DEC/0067854578102C2/101-102"
+                            },
+                            "RPH": "014"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 2.01,
+                        "commType": "ADT",
+                        "dob": "24FEB1968",
+                        "sage": "48",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "KAUR",
+                        "age": 48,
+                        "child": false
+                    }],
+                    "ContactNumbers": {
+                        "ContactNumber": {
+                            "Phone": 2126955832,
+                            "LocationCode": "NYC",
+                            "RPH": "001"
+                        }
+                    }
+                },
+                "SpecialServiceInfo": [{
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "ADTK",
+                        "SSR_Code": "SSR",
+                        "Text": "1S TO KL BY 19AUG16/0200Z OTHERWISE WILL BE XXLD"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1/DB/15AUG1967/M/SINGH/RAVINDER"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1/DB/24FEB1968/F/KAUR/VEERPAL"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 CMHDTW6871V01NOV/0067854578099C1/099-100"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWAMS6048V01NOV/0067854578099C2/099-100"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDEL0871V02NOV/0067854578099C3/099-100"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DELAMS0872V05DEC/0067854578099C4/099-100"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDTW6051V05DEC/0067854578100C1/099-100"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWCMH7824V05DEC/0067854578100C2/099-100"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 CMHDTW6871V01NOV/0067854578101C1/101-102"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWAMS6048V01NOV/0067854578101C2/101-102"
+                    },
+                    "RPH": "010"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDEL0871V02NOV/0067854578101C3/101-102"
+                    },
+                    "RPH": "011"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DELAMS0872V05DEC/0067854578101C4/101-102"
+                    },
+                    "RPH": "012"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDTW6051V05DEC/0067854578102C1/101-102"
+                    },
+                    "RPH": "013"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWCMH7824V05DEC/0067854578102C2/101-102"
+                    },
+                    "RPH": "014"
+                }],
+                "RemarkInfo": {
+                    "Remark": [{
+                        "Type": "Historical",
+                        "Text": "AUTH-MSTR/IK2232/16AUG/01511471362906985863",
+                        "RPH": "002"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-DNH/EXCEEDS AMOUNT LIMIT/51/USD1665.50",
+                        "RPH": "003"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-CSC NOT SUPPLIED/",
+                        "RPH": "004"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-AVS NOT SUPPORTED/",
+                        "RPH": "005"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/APV-01628B/DS2662/16AUG",
+                        "RPH": "006"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/CSC NOT SUPPLIED",
+                        "RPH": "007"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/AVS NOT SUPPLIED",
+                        "RPH": "008"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "XXAUTH/01628B/DS6XXXXXXXXXXX2662/DL/USD1665.50/16AUG/S",
+                        "RPH": "009"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/APV-01663B/DS2662/16AUG",
+                        "RPH": "010"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/CSC NOT SUPPLIED",
+                        "RPH": "011"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH/AVS NOT SUPPLIED",
+                        "RPH": "012"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "REV ADV SF/DS6XXXXXXXXXXX2662/AUTH01663B/USD48.00/16AUG",
+                        "RPH": "013"
+                    }, {
+                        "Type": "Alpha-Coded",
+                        "Text": "16AUG/1211 PM/ITIN SENT TO MAIL SERVER FOR PROCESSING",
+                        "RPH": "014",
+                        "Code": "Q"
+                    }]
+                }
+            },
+            "ApplicationResults": {
+                "Success": {
+                    "timeStamp": "2016-08-16T14:31:03.357-05:00"
+                },
+                "status": "Complete"
+            },
+            "xmlns:ns3": "http://services.sabre.com/res/tir/v3_6",
+            "xmlns:ns4": "http://services.sabre.com/STL/v01"
+        },
+        "pnrNumber": "MNMDIZ",
+        "error": false,
+        "hasTSA": true,
+        "displayQuotes": true,
+        "persons": {
+            "NN_1.01": {
+                "Email": ["LIVERPOOLEXPRESS@ROADRUNNER.COM", "LIVERPOOLEXPRESS@ROADRUNER.COM"],
+                "tsa": "HK1/DB/15AUG1967/M/SINGH/RAVINDER",
+                "netType": "JCB",
+                "GivenName": "RAVINDER",
+                "WithInfant": false,
+                "RPH": 1,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1/DB/15AUG1967/M/SINGH/RAVINDER"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 CMHDTW6871V01NOV/0067854578099C1/099-100"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWAMS6048V01NOV/0067854578099C2/099-100"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDEL0871V02NOV/0067854578099C3/099-100"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DELAMS0872V05DEC/0067854578099C4/099-100"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDTW6051V05DEC/0067854578100C1/099-100"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "SINGH/RAVINDER"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWCMH7824V05DEC/0067854578100C2/099-100"
+                    },
+                    "RPH": "008"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 1.01,
+                "commType": "ADT",
+                "dob": "15AUG1967",
+                "sage": "49",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "SINGH",
+                "age": 49,
+                "child": false
+            },
+            "NN_2.01": {
+                "Email": ["LIVERPOOLEXPRESS@ROADRUNNER.COM", "LIVERPOOLEXPRESS@ROADRUNER.COM"],
+                "tsa": "HK1/DB/24FEB1968/F/KAUR/VEERPAL",
+                "netType": "JCB",
+                "GivenName": "VEERPAL",
+                "WithInfant": false,
+                "RPH": 2,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1/DB/24FEB1968/F/KAUR/VEERPAL"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 CMHDTW6871V01NOV/0067854578101C1/101-102"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWAMS6048V01NOV/0067854578101C2/101-102"
+                    },
+                    "RPH": "010"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDEL0871V02NOV/0067854578101C3/101-102"
+                    },
+                    "RPH": "011"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DELAMS0872V05DEC/0067854578101C4/101-102"
+                    },
+                    "RPH": "012"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 AMSDTW6051V05DEC/0067854578102C1/101-102"
+                    },
+                    "RPH": "013"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "KAUR/VEERPAL"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "KL"
+                        },
+                        "Text": "HK1 DTWCMH7824V05DEC/0067854578102C2/101-102"
+                    },
+                    "RPH": "014"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 2.01,
+                "commType": "ADT",
+                "dob": "24FEB1968",
+                "sage": "48",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "KAUR",
+                "age": 48,
+                "child": false
+            }
+        },
+        "hasItinerary": true,
+        "hasTSAFailureCount": 0,
+        "hasFormOfPayment": true
+    },
+    "validations": [{
+        "passed": true,
+        "message": "Travel Agency Match: N212695583",
+        "id": 0
+    }, {
+        "passed": false,
+        "message": "Travel Agent Match: S/YU69",
+        "id": 1
+    }, {
+        "passed": true,
+        "message": "TSA Info for 1.01 SINGH/RAVINDER",
+        "id": 2
+    }, {
+        "passed": true,
+        "message": "TSA Info for 2.01 KAUR/VEERPAL",
+        "id": 3
+    }, {
+        "passed": true,
+        "message": "Payment Info  *DS6XXXXXXXXXXX2662¥05/20",
+        "id": 4
+    }],
+    "errors": []
+}

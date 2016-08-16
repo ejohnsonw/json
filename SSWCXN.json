@@ -1,0 +1,2795 @@
+{
+    "agency": {
+        "country": " ",
+        "lastName": null,
+        "notes": null,
+        "city": "Wston",
+        "agencyId": "N727562503",
+        "type": {
+            "id": 1
+        },
+        "markupExceptions": [],
+        "markups": [{
+            "netExceptions": "9W-0|EY-0|EK-0",
+            "pubWithCommExceptions": "",
+            "agency": {
+                "id": 17873
+            },
+            "netMarkUp": "$5",
+            "pubNoComm": "$5",
+            "id": 1077,
+            "pubWithComm": "$5"
+        }],
+        "aptSuite": "Unit 7D",
+        "contact": null,
+        "id": 17873,
+        "state": "FL",
+        "fax": "+1 (727) 562-5035",
+        "email": "info@indiatravelplan.net",
+        "zip": "33327.0",
+        "address": "1059 Tupelo way",
+        "agencyGroup": {
+            "id": 76
+        },
+        "profileNumber": "54893",
+        "altId": null,
+        "searchable": true,
+        "abnVatNumber": null,
+        "agents": [],
+        "firstName": "Bhavana Jain",
+        "phone": "+1 (727) 562-5035",
+        "name": "INDIA TRAVEL PLAN LLC--ACH DEPOSIT"
+    },
+    "pnr": {
+        "agent": null,
+        "TravelItineraryReadRS": {
+            "xmlns": "http://services.sabre.com/res/or/v1_4",
+            "Version": "3.6.0",
+            "xmlns:ns2": "http://services.sabre.com/STL_Header/v120",
+            "TravelItinerary": {
+                "ItineraryInfo": {
+                    "Ticketing": [{
+                        "TicketTimeLimit": "T-16AUG-T7IG*AWS",
+                        "RPH": "01"
+                    }, {
+                        "eTicketNumber": "TE 2207854677259-AT JAIN/K T7IG*AWS 1446/16AUG",
+                        "RPH": "02"
+                    }],
+                    "ItineraryPricing": {
+                        "PriceQuote": [{
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "LH",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "01",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2074.48
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "540.00YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "17.50YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "20.40DE"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "47.60RA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.74WO"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.68IN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "12.40YM"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 715.48
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 2074.48
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 715.48
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 1359
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1359
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50END ROE1.00 XFTPA4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 483,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-16T17:50",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 483,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-16",
+                                                "NotValidBefore": "2016-12-16"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 756,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-17T12:35",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 756,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-17",
+                                                "NotValidBefore": "2016-12-17"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "BOM"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 757,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T02:55",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 757,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 482,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T11:00",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 482,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 22AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 22AUG"],
+                                        "TourCode": {
+                                            "Text": "267IN"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-01P/LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "INEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AR CENTIMETERS-NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONEND/REFRETEINFOTHRUAGT/AC/OS/SN/LH/LX/UA ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPPJCB$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - LH",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPPJCBRQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2074.48
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YQ",
+                                                "Amount": 540,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YR",
+                                                "Amount": 17.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 5.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "DE",
+                                                "Amount": 20.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RA",
+                                                "Amount": 47.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "WO",
+                                                "Amount": 3.74,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IN",
+                                                "Amount": 11.68,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YM",
+                                                "Amount": 12.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 4.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50END ROE1.00 XFTPA4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 715.48
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1359
+                                        }
+                                    }
+                                }
+                            },
+                            "MiscInformation": {
+                                "TicketingFees": [{
+                                    "Disclaimer": "ONE OR MORE FORM OF PAYMENT FEES MAY APPLY"
+                                }, {
+                                    "Disclaimer": "ACTUAL TOTAL WILL BE BASED ON FORM OF PAYMENT USED"
+                                }, {
+                                    "FeeInformation": {
+                                        "Description": "",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- ANY CC"
+                                    },
+                                    "Disclaimer": "FEE CODE     DESCRIPTION                         FEE"
+                                }],
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "TPAFRA FRABOM BOMFRA FRATPA-01P/LH", "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L", "INEAR CENTIMETERS", "CARRY ON CHARGES", "TPAFRA FRABOM BOMFRA FRATPA-LH", "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE", "AR CENTIMETERS-NOT PERMITTED", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "ExpirationDateTime": "00:00",
+                                    "Text": "T7IG T7IG*AVN 1445/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "BT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "267IN",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": {
+                                        "NameNumber": 1.01,
+                                        "content": "JAIN/KAVITA MRS"
+                                    }
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1445/16AUG16",
+                            "RPH": 1,
+                            "totalWithMarkup": 2074.48,
+                            "via": "T7IG*AVN",
+                            "pricingType": "NET",
+                            "base": 1359
+                        }, {
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "LH",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "01",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2178
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "540.00YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "17.50YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "20.40DE"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "47.60RA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.74WO"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.68IN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "12.40YM"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 715.48
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 2178
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 715.48
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 1462.52
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1462.52
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50 PLUS103.52END ROE1.00 XFTPA4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 483,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-16T17:50",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 483,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-16",
+                                                "NotValidBefore": "2016-12-16"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 756,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-17T12:35",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 756,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-17",
+                                                "NotValidBefore": "2016-12-17"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "BOM"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 757,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T02:55",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 757,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 482,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T11:00",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 482,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 22AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 22AUG"],
+                                        "TourCode": {
+                                            "Text": "267IN"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-01P/LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "INEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AR CENTIMETERS-NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONEND/REFRETEINFOTHRUAGT/AC/OS/SN/LH/LX/UA ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPK103.52$N1.01$P1JCB$PU*103.52$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - LH",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 2,
+                                "InputMessage": "WPK103.52N1.01P1JCBPU*103.52RQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2178
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YQ",
+                                                "Amount": 540,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YR",
+                                                "Amount": 17.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 5.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "DE",
+                                                "Amount": 20.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RA",
+                                                "Amount": 47.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "WO",
+                                                "Amount": 3.74,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IN",
+                                                "Amount": 11.68,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YM",
+                                                "Amount": 12.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 4.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50 PLUS103.52END ROE1.00 XFTPA4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 715.48
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1462.52
+                                        },
+                                        "Commission": {
+                                            "CurrencyCode": "USD",
+                                            "Percent": {
+                                                "Type": "",
+                                                "content": 103.52
+                                            },
+                                            "Amount": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "markup": 103.52,
+                            "MiscInformation": {
+                                "TicketingFees": [{
+                                    "Disclaimer": "ONE OR MORE FORM OF PAYMENT FEES MAY APPLY"
+                                }, {
+                                    "Disclaimer": "ACTUAL TOTAL WILL BE BASED ON FORM OF PAYMENT USED"
+                                }, {
+                                    "FeeInformation": {
+                                        "Description": "",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- ANY CC"
+                                    },
+                                    "Disclaimer": "FEE CODE     DESCRIPTION                         FEE"
+                                }],
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "TPAFRA FRABOM BOMFRA FRATPA-01P/LH", "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L", "INEAR CENTIMETERS", "CARRY ON CHARGES", "TPAFRA FRABOM BOMFRA FRATPA-LH", "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE", "AR CENTIMETERS-NOT PERMITTED", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 103.52,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "A",
+                                    "Text": "T7IG T7IG*AWS 1446/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "BT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "267IN",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": {
+                                        "NameNumber": 1.01,
+                                        "content": "JAIN/KAVITA MRS"
+                                    }
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1446/16AUG16",
+                            "RPH": 2,
+                            "totalWithMarkup": 2178,
+                            "via": "T7IG*AWS",
+                            "pricingType": "NET",
+                            "base": 1359.0000033569336
+                        }, {
+                            "pcc": "W4FF",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE USED TO CALCULATE DISCOUNT", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "LH",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "01",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2074.28
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "540.00YQ"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "17.50YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.60AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "20.40DE"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "47.40RA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.74WO"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.68IN"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "12.40YM"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "4.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 715.28
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 2074.28
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 715.28
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 1359
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1359
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50END ROE1.00 XFTPA4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 483,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-16T17:50",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 483,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-16",
+                                                "NotValidBefore": "2016-12-16"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 756,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "12-17T12:35",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 756,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-12-17",
+                                                "NotValidBefore": "2016-12-17"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "BOM"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 757,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T02:55",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 757,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "FRA"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 482,
+                                                "Code": "LH"
+                                            },
+                                            "DepartureDateTime": "01-06T11:00",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 482,
+                                            "FareBasis": {
+                                                "Code": "SQW06NCE/CN05"
+                                            },
+                                            "ResBookDesigCode": "S",
+                                            "BaggageAllowance": {
+                                                "Number": "02P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2017-01-06",
+                                                "NotValidBefore": "2017-01-06"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "TPA"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 22AUG/2359", "GUARANTEED FARE APPL IF PURCHASED BEFORE 22AUG"],
+                                        "TourCode": {
+                                            "Text": "267IN"
+                                        },
+                                        "FareBasis": {
+                                            "Code": "SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05/SQW06NCE/CN05"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-01P/LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "INEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "TPAFRA FRABOM BOMFRA FRATPA-LH",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "AR CENTIMETERS-NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONEND/REFRETEINFOTHRUAGT/AC/OS/SN/LH/LX/UA ONLY",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPPJCB$ETR$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - LH",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "CAT 15 SALES RESTRICTIONS FREE TEXT FOUND - VERIFY RULES",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPPJCBETRRQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 2074.28
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YQ",
+                                                "Amount": 540,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YR",
+                                                "Amount": 17.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 5.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "DE",
+                                                "Amount": 20.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "RA",
+                                                "Amount": 47.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "WO",
+                                                "Amount": 3.74,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IN",
+                                                "Amount": 11.68,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YM",
+                                                "Amount": 12.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 4.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "TPA LH X/FRA LH BOM679.25LH X/FRA LH TPA679.25NUC1358.50END ROE1.00 XFTPA4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 715.28
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 1359
+                                        }
+                                    }
+                                }
+                            },
+                            "MiscInformation": {
+                                "TicketingFees": [{
+                                    "Disclaimer": "ONE OR MORE FORM OF PAYMENT FEES MAY APPLY"
+                                }, {
+                                    "Disclaimer": "ACTUAL TOTAL WILL BE BASED ON FORM OF PAYMENT USED"
+                                }, {
+                                    "FeeInformation": [{
+                                        "Description": "",
+                                        "AccountData": 122088,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14121 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14122 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14123 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": 192088,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": 528159,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FCA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- ANY CC"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": 122088,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14121 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14122 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": "14123 ",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": 192088,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "AccountData": 528159,
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- CC NBR BEGINS WITH"
+                                    }, {
+                                        "Description": "",
+                                        "CurrenyCode": "",
+                                        "ServiceType": "OB",
+                                        "Amount": 0,
+                                        "FunctionCode": "FDA",
+                                        "DisplayOnOutputInd": "X",
+                                        "content": "- ANY CC"
+                                    }],
+                                    "Disclaimer": "FEE CODE     DESCRIPTION                         FEE"
+                                }],
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -TPABOM-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -BOMTPA-02P/LH/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "TPAFRA FRABOM BOMFRA FRATPA-01P/LH", "01/UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 L", "INEAR CENTIMETERS", "CARRY ON CHARGES", "TPAFRA FRABOM BOMFRA FRATPA-LH", "UP TO 18 POUNDS/8 KILOGRAMS AND UP TO 46 LINEAR INCHES/118 LINE", "AR CENTIMETERS-NOT PERMITTED", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "HISTORY",
+                                    "ExpirationDateTime": "00:00",
+                                    "Text": "W4FF 3VLF*ABJ 1037/15AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "BT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "TourCode": "267IN",
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1037/15AUG16",
+                            "RPH": 3,
+                            "totalWithMarkup": 2074.28,
+                            "via": "3VLF*ABJ",
+                            "pricingType": "NET",
+                            "base": 1359.0000000000002
+                        }],
+                        "PriceQuoteTotals": {
+                            "TotalFare": {
+                                "Amount": 4252.48
+                            },
+                            "Taxes": {
+                                "Tax": {
+                                    "Amount": 1430.96
+                                }
+                            },
+                            "BaseFare": {
+                                "Amount": 2821.52
+                            }
+                        }
+                    },
+                    "ReservationItems": {
+                        "Item": [{
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "TPA"
+                                },
+                                "UpdatedArrivalTime": "12-17T08:50",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "01",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 9,
+                                "ResBookDesigCode": "S",
+                                "SegmentNumber": "0001",
+                                "ArrivalDateTime": "12-17T08:50",
+                                "SpecialMeal": true,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "LUFTHANSA",
+                                    "FlightNumber": "0483",
+                                    "Code": "LH"
+                                },
+                                "DestinationLocation": {
+                                    "TerminalCode": 1,
+                                    "LocationCode": "FRA",
+                                    "Terminal": "TERMINAL 1"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 5,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0483",
+                                    "Code": "LH"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY LUFTHANSA",
+                                "UpdatedDepartureTime": "12-16T17:50",
+                                "AirMilesFlown": 4819,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "001",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 343
+                                },
+                                "DepartureDateTime": "2016-12-16T17:50",
+                                "FlightNumber": "0483",
+                                "SupplierRef": {
+                                    "ID": "DCLH*2MSZRZ"
+                                },
+                                "hasStops": false,
+                                "dep": "16Dec",
+                                "dept": "17:50",
+                                "arr": "17Dec",
+                                "arrt": "08:50"
+                            },
+                            "RPH": 1
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 1,
+                                    "LocationCode": "FRA",
+                                    "Terminal": "TERMINAL 1"
+                                },
+                                "UpdatedArrivalTime": "12-18T01:00",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "01",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 7.55,
+                                "ResBookDesigCode": "S",
+                                "SegmentNumber": "0002",
+                                "ArrivalDateTime": "12-18T01:00",
+                                "SpecialMeal": true,
+                                "DestinationLocation": {
+                                    "TerminalCode": 2,
+                                    "LocationCode": "BOM",
+                                    "Terminal": "TERMINAL 2 INTERNATIONAL"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 6,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0756",
+                                    "Code": "LH"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "12-17T12:35",
+                                "AirMilesFlown": 4086,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "001",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "74H"
+                                },
+                                "DepartureDateTime": "2016-12-17T12:35",
+                                "FlightNumber": "0756",
+                                "SupplierRef": {
+                                    "ID": "DCLH*2MSZRZ"
+                                },
+                                "hasStops": false,
+                                "dep": "17Dec",
+                                "dept": "12:35",
+                                "arr": "18Dec",
+                                "arrt": "01:00"
+                            },
+                            "RPH": 2
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 2,
+                                    "LocationCode": "BOM",
+                                    "Terminal": "TERMINAL 2 INTERNATIONAL"
+                                },
+                                "UpdatedArrivalTime": "01-06T07:20",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "01",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 8.55,
+                                "ResBookDesigCode": "S",
+                                "SegmentNumber": "0003",
+                                "ArrivalDateTime": "01-06T07:20",
+                                "SpecialMeal": true,
+                                "DestinationLocation": {
+                                    "TerminalCode": 1,
+                                    "LocationCode": "FRA",
+                                    "Terminal": "TERMINAL 1"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 5,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0757",
+                                    "Code": "LH"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "01-06T02:55",
+                                "AirMilesFlown": 4086,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "003",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "74H"
+                                },
+                                "DepartureDateTime": "2017-01-06T02:55",
+                                "FlightNumber": "0757",
+                                "SupplierRef": {
+                                    "ID": "DCLH*2MSZRZ"
+                                },
+                                "hasStops": false,
+                                "dep": "06Jan",
+                                "dept": "02:55",
+                                "arr": "06Jan",
+                                "arrt": "07:20"
+                            },
+                            "RPH": 3
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 1,
+                                    "LocationCode": "FRA",
+                                    "Terminal": "TERMINAL 1"
+                                },
+                                "UpdatedArrivalTime": "01-06T15:50",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "M"
+                                },
+                                "NumberInParty": "01",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 10.5,
+                                "ResBookDesigCode": "S",
+                                "SegmentNumber": "0004",
+                                "ArrivalDateTime": "01-06T15:50",
+                                "SpecialMeal": true,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "LUFTHANSA",
+                                    "FlightNumber": "0482",
+                                    "Code": "LH"
+                                },
+                                "DestinationLocation": {
+                                    "LocationCode": "TPA"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 5,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0482",
+                                    "Code": "LH"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY LUFTHANSA",
+                                "UpdatedDepartureTime": "01-06T11:00",
+                                "AirMilesFlown": 4819,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "003",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 343
+                                },
+                                "DepartureDateTime": "2017-01-06T11:00",
+                                "FlightNumber": "0482",
+                                "SupplierRef": {
+                                    "ID": "DCLH*2MSZRZ"
+                                },
+                                "hasStops": false,
+                                "dep": "06Jan",
+                                "dept": "11:00",
+                                "arr": "06Jan",
+                                "arrt": "15:50"
+                            },
+                            "RPH": 4
+                        }, {
+                            "RPH": 5,
+                            "MiscSegment": {
+                                "SegmentNumber": "0005",
+                                "Status": "GK",
+                                "IsPast": false,
+                                "OriginLocation": {
+                                    "LocationCode": "TPA"
+                                },
+                                "Type": "OTH",
+                                "DayOfWeekInd": 7,
+                                "DepartureDateTime": "07-02",
+                                "NumberInParty": "01",
+                                "Text": ["HK//", "THANK YOU FOR YOUR BUSINESS"],
+                                "Vendor": {
+                                    "Code": "YY"
+                                }
+                            }
+                        }]
+                    }
+                },
+                "AccountingInfo": {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "5XXXXXXXXXXX3892",
+                                    "Code": "CA"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 103.52
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 1.1,
+                        "content": "JAIN KAVITA MRS"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 715.48
+                        }
+                    },
+                    "Airline": {
+                        "Code": "LH"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "CurrencyCode": "USD",
+                        "Amount": 1462.52
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854677259
+                        }
+                    }
+                },
+                "ItineraryRef": {
+                    "PrimeHostID": "1S",
+                    "InhibitCode": "U",
+                    "CustomerIdentifier": "N727562503",
+                    "ID": "SSWCXN",
+                    "AirExtras": false,
+                    "PartitionID": "AA",
+                    "Source": {
+                        "HomePseudoCityCode": "3VLF",
+                        "LastUpdateDateTime": "2016-08-16T13:51",
+                        "ReceivedFrom": "P",
+                        "CreateDateTime": "2016-08-15T09:23",
+                        "SequenceNumber": 22,
+                        "AAA_PseudoCityCode": "WR17",
+                        "CreationAgent": "ABJ",
+                        "PseudoCityCode": "W4FF"
+                    }
+                },
+                "CustomerInfo": {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": {
+                                "Text": "*CA5XXXXXXXXXXX3892¥03/20",
+                                "RPH": "003"
+                            },
+                            "CC_Info": {
+                                "PreferredCustomer": "PREFERRED CUSTOMER STATUS - AUTO AVS NOT REQUESTED"
+                            }
+                        }
+                    },
+                    "PersonName": {
+                        "Email": ["INFO@INDIATRAVELPLAN.NET", "ABAGDY@YAHOO.COM"],
+                        "tsa": "HK1/DB/10OCT67/F/JAIN/KAVITA",
+                        "netType": "JCB",
+                        "GivenName": "KAVITA MRS",
+                        "WithInfant": false,
+                        "RPH": 1,
+                        "services": [{
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH UN1 TPAFRA0483S16DEC"
+                            },
+                            "RPH": "002"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH UN1 FRABOM0756S17DEC"
+                            },
+                            "RPH": "003"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH UN1 BOMFRA0757S06JAN"
+                            },
+                            "RPH": "004"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH UN1 FRATPA0482S06JAN"
+                            },
+                            "RPH": "005"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH KK1 TPAFRA0483S16DEC"
+                            },
+                            "RPH": "006"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH KK1 FRABOM0756S17DEC"
+                            },
+                            "RPH": "007"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH KK1 BOMFRA0757S06JAN"
+                            },
+                            "RPH": "008"
+                        }, {
+                            "Type": "AFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Text": "LH KK1 FRATPA0482S06JAN"
+                            },
+                            "RPH": "009"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "HK1/DB/10OCT67/F/JAIN/KAVITA"
+                            },
+                            "RPH": "001"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "UN1 TPAFRA0483S16DEC"
+                            },
+                            "RPH": "002"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "UN1 FRABOM0756S17DEC"
+                            },
+                            "RPH": "003"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "UN1 BOMFRA0757S06JAN"
+                            },
+                            "RPH": "004"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "NSSA",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "UN1 FRATPA0482S06JAN"
+                            },
+                            "RPH": "005"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "NN1 TPAFRA0483S16DEC"
+                            },
+                            "RPH": "006"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "NN1 FRABOM0756S17DEC"
+                            },
+                            "RPH": "007"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "NN1 BOMFRA0757S06JAN"
+                            },
+                            "RPH": "008"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "AVML",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "NN1 FRATPA0482S06JAN"
+                            },
+                            "RPH": "009"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "HK1 TPAFRA0483S16DEC/2207854677259C1"
+                            },
+                            "RPH": "010"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "HK1 FRABOM0756S17DEC/2207854677259C2"
+                            },
+                            "RPH": "011"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "HK1 BOMFRA0757S06JAN/2207854677259C3"
+                            },
+                            "RPH": "012"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "JAIN/KAVITA MRS"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "LH"
+                                },
+                                "Text": "HK1 FRATPA0482S06JAN/2207854677259C4"
+                            },
+                            "RPH": "013"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 1.01,
+                        "commType": "ADT",
+                        "dob": "10OCT67",
+                        "sage": "48",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "JAIN",
+                        "age": 48,
+                        "child": false
+                    },
+                    "ContactNumbers": {
+                        "ContactNumber": {
+                            "Phone": "-510-260-6540",
+                            "LocationCode": "TPA",
+                            "RPH": "001"
+                        }
+                    }
+                },
+                "SpecialServiceInfo": [{
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "OTHS",
+                        "SSR_Code": "SSR",
+                        "Text": "1S PLS ISS AUTOMATIC TKT BY 29AUG16/2359Z OR LH OPTG/MKTG SEGS WILL BE XLD. APPLIC FARE RULE APPLIES IF ITDEMANDS EARLIER TKTG."
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1/DB/10OCT67/F/JAIN/KAVITA"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 TPAFRA0483S16DEC/2207854677259C1"
+                    },
+                    "RPH": "010"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 FRABOM0756S17DEC/2207854677259C2"
+                    },
+                    "RPH": "011"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 BOMFRA0757S06JAN/2207854677259C3"
+                    },
+                    "RPH": "012"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 FRATPA0482S06JAN/2207854677259C4"
+                    },
+                    "RPH": "013"
+                }],
+                "RemarkInfo": {
+                    "Remark": [{
+                        "Type": "Itinerary",
+                        "Text": "PLS CALL BHAVANA AT 727-562-5035",
+                        "RPH": "001"
+                    }, {
+                        "Type": "Itinerary",
+                        "Text": "TOTAL FARE USD 2140",
+                        "RPH": "002"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "CHARGE USD 2140",
+                        "RPH": "004"
+                    }, {
+                        "Type": "Invoice",
+                        "Text": "S*UD25 N",
+                        "RPH": "005"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-MSTR/IK3892/16AUG/01411471373210905387",
+                        "RPH": "006"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-APV/82159P/00/USD2178.00",
+                        "RPH": "007"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-CSC NOT SUPPLIED/",
+                        "RPH": "008"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-AVS NOT SUPPORTED/",
+                        "RPH": "009"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "XXAUTH/82159P/CA5XXXXXXXXXXX3892/LH/USD2178.00/16AUG/S",
+                        "RPH": "010"
+                    }, {
+                        "Type": "Invoice",
+                        "Text": "S*UD25 N",
+                        "RPH": "011"
+                    }, {
+                        "Type": "Alpha-Coded",
+                        "Text": "16AUG/0251 PM/ITIN SENT TO MAIL SERVER FOR PROCESSING",
+                        "RPH": "012",
+                        "Code": "Q"
+                    }]
+                }
+            },
+            "ApplicationResults": {
+                "Success": {
+                    "timeStamp": "2016-08-16T14:27:49.166-05:00"
+                },
+                "status": "Complete"
+            },
+            "xmlns:ns3": "http://services.sabre.com/res/tir/v3_6",
+            "xmlns:ns4": "http://services.sabre.com/STL/v01"
+        },
+        "pnrNumber": "SSWCXN",
+        "error": false,
+        "hasTSA": true,
+        "displayQuotes": true,
+        "persons": {
+            "NN_1.01": {
+                "Email": ["INFO@INDIATRAVELPLAN.NET", "ABAGDY@YAHOO.COM"],
+                "tsa": "HK1/DB/10OCT67/F/JAIN/KAVITA",
+                "netType": "JCB",
+                "GivenName": "KAVITA MRS",
+                "WithInfant": false,
+                "RPH": 1,
+                "services": [{
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH UN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "AFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Text": "LH KK1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1/DB/10OCT67/F/JAIN/KAVITA"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "NSSA",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "UN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 TPAFRA0483S16DEC"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 FRABOM0756S17DEC"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 BOMFRA0757S06JAN"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "AVML",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "NN1 FRATPA0482S06JAN"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 TPAFRA0483S16DEC/2207854677259C1"
+                    },
+                    "RPH": "010"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 FRABOM0756S17DEC/2207854677259C2"
+                    },
+                    "RPH": "011"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 BOMFRA0757S06JAN/2207854677259C3"
+                    },
+                    "RPH": "012"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "JAIN/KAVITA MRS"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "LH"
+                        },
+                        "Text": "HK1 FRATPA0482S06JAN/2207854677259C4"
+                    },
+                    "RPH": "013"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 1.01,
+                "commType": "ADT",
+                "dob": "10OCT67",
+                "sage": "48",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "JAIN",
+                "age": 48,
+                "child": false
+            }
+        },
+        "hasItinerary": true,
+        "hasTSAFailureCount": 0,
+        "hasFormOfPayment": true
+    },
+    "validations": [{
+        "passed": true,
+        "message": "Travel Agency Match: N727562503",
+        "id": 0
+    }, {
+        "passed": false,
+        "message": "Travel Agent Match: P/3VLF",
+        "id": 1
+    }, {
+        "passed": true,
+        "message": "TSA Info for 1.01 JAIN/KAVITA MRS",
+        "id": 2
+    }, {
+        "passed": true,
+        "message": "Payment Info  *CA5XXXXXXXXXXX3892¥03/20",
+        "id": 3
+    }],
+    "errors": []
+}

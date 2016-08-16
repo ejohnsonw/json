@@ -1,0 +1,1960 @@
+{
+    "agency": {
+        "country": " ",
+        "lastName": "DIRECT DEPOSIT CHECKS",
+        "notes": "STE 504",
+        "city": "New York",
+        "agencyId": "N212391231",
+        "type": {
+            "id": 1
+        },
+        "markupExceptions": [],
+        "markups": [{
+            "netExceptions": "",
+            "pubWithCommExceptions": "",
+            "agency": {
+                "id": 17811
+            },
+            "netMarkUp": "$0",
+            "pubNoComm": "$0",
+            "id": 893,
+            "pubWithComm": "$0"
+        }],
+        "aptSuite": null,
+        "contact": null,
+        "id": 17811,
+        "state": "NY",
+        "fax": "+1 (212) 478-0337",
+        "email": "RAVI@FAREBUZZ.COM",
+        "zip": "10020.0",
+        "address": "135 WEST 50TH STREET",
+        "agencyGroup": {
+            "id": 76
+        },
+        "profileNumber": "54704",
+        "altId": null,
+        "searchable": true,
+        "abnVatNumber": null,
+        "agents": [],
+        "firstName": null,
+        "phone": "+1 (212) 391-2313",
+        "name": "FAREBUZZ"
+    },
+    "pnr": {
+        "agent": null,
+        "TravelItineraryReadRS": {
+            "xmlns": "http://services.sabre.com/res/or/v1_4",
+            "Version": "3.6.0",
+            "xmlns:ns2": "http://services.sabre.com/STL_Header/v120",
+            "TravelItinerary": {
+                "ItineraryInfo": {
+                    "Ticketing": [{
+                        "TicketTimeLimit": "T-16AUG-T7IG*AWS",
+                        "RPH": "01"
+                    }, {
+                        "eTicketNumber": "TE 0067854578176-AT ZANE/C T7IG*AWS 1323/16AUG",
+                        "RPH": "02"
+                    }, {
+                        "eTicketNumber": "TE 0067854578177-AT ZANE/S T7IG*AWS 1323/16AUG",
+                        "RPH": "03"
+                    }],
+                    "ItineraryPricing": {
+                        "PriceQuote": [{
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "DL",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 673.96
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "128.00YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.20AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "20.40IS"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "6.80ZU"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 231.96
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1347.92
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 463.92
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 884
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 442
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "CMH DL X/NYC DL REK M220.80DL X/NYC DL CMH M220.80NUC441.60END ROE1.00 XFCMH4.5JFK4.5JFK4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 3305,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-20T17:42",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 3305,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-20",
+                                                "NotValidBefore": "2016-08-20"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 446,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-20T21:16",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 446,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-20",
+                                                "NotValidBefore": "2016-08-20"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "KEF"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 246,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-27T10:30",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 246,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-27",
+                                                "NotValidBefore": "2016-08-27"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 4208,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-27T14:59",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 4208,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-27",
+                                                "NotValidBefore": "2016-08-27"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 17AUG/1305", "GUARANTEED FARE APPL IF PURCHASED BEFORE 17AUG"],
+                                        "FareBasis": {
+                                            "Code": "THB99US/LN6Y/THB99US/LN6Y/THB99US/LN6Y/THB99US/LN6Y"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -CMHKEF-01P/DL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-CMHKEF-USD100.00/DL/UP TO 50 POUNDS/23 KILOG",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -KEFCMH-01P/DL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-KEFCMH-USD100.00/DL/UP TO 50 POUNDS/23 KILOG",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKKEF KEFJFK JFKCMH-01P/DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/CARRY ON HAND BAGGAGE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKKEF KEFJFK JFKCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "EMBARGOES-APPLY TO EACH PASSENGER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKCMH-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN HOLD NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "JFKKEF KEFJFK-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN HOLD NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN CABIN NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONREF/PENALTY APPLIES",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPPJCB$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - DL",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 1,
+                                "InputMessage": "WPPJCBRQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 673.96
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YR",
+                                                "Amount": 128,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 11.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IS",
+                                                "Amount": 20.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "ZU",
+                                                "Amount": 6.8,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 13.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "CMH DL X/NYC DL REK M220.80DL X/NYC DL CMH M220.80NUC441.60END ROE1.00 XFCMH4.5JFK4.5JFK4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 231.96
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 442
+                                        },
+                                        "Commission": {
+                                            "CurrencyCode": "USD",
+                                            "Percent": {
+                                                "Type": "NET",
+                                                "content": 0
+                                            },
+                                            "Amount": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -CMHKEF-01P/DL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-CMHKEF-USD100.00/DL/UP TO 50 POUNDS/23 KILOG", "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -KEFCMH-01P/DL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-KEFCMH-USD100.00/DL/UP TO 50 POUNDS/23 KILOG", "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "CMHJFK JFKKEF KEFJFK JFKCMH-01P/DL", "01/CARRY ON HAND BAGGAGE", "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS", "CARRY ON CHARGES", "CMHJFK JFKKEF KEFJFK JFKCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./", "EMBARGOES-APPLY TO EACH PASSENGER", "CMHJFK JFKCMH-DL", "PET IN HOLD NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED", "JFKKEF KEFJFK-DL", "PET IN HOLD NOT PERMITTED", "PET IN CABIN NOT PERMITTED", "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 0,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "N",
+                                    "Text": "T7IG T7IG*AVN 1305/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "IT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": [{
+                                        "NameNumber": 1.01,
+                                        "content": "ZANE/CLAUDIA PRESTON"
+                                    }, {
+                                        "NameNumber": 2.01,
+                                        "content": "ZANE/STEVEN"
+                                    }]
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1305/16AUG16",
+                            "RPH": 1,
+                            "totalWithMarkup": 673.96,
+                            "via": "T7IG*AVN",
+                            "pricingType": "NET",
+                            "base": 442
+                        }, {
+                            "pcc": "T7IG",
+                            "ResponseHeader": {
+                                "Text": ["FARE - PRICE RETAINED", "FARE USED TO CALCULATE DISCOUNT", "FARE NOT GUARANTEED UNTIL TICKETED"]
+                            },
+                            "PricedItinerary": {
+                                "TaxExempt": false,
+                                "ValidatingCarrier": "DL",
+                                "DisplayOnly": false,
+                                "AirItineraryPricingInfo": {
+                                    "PassengerTypeQuantity": {
+                                        "Quantity": "02",
+                                        "Code": "JCB"
+                                    },
+                                    "ItinTotalFare": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 750.96
+                                        },
+                                        "Taxes": {
+                                            "TaxBreakdownCode": [{
+                                                "TaxPaid": false,
+                                                "content": "128.00YR"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "35.60US"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "5.50YC"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "7.00XY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "3.96XA"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "11.20AY"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "20.40IS"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "6.80ZU"
+                                            }, {
+                                                "TaxPaid": false,
+                                                "content": "13.50XF"
+                                            }],
+                                            "Tax": {
+                                                "TaxCode": "XT",
+                                                "Amount": 231.96
+                                            }
+                                        },
+                                        "Totals": {
+                                            "TotalFare": {
+                                                "Amount": 1501.92
+                                            },
+                                            "Taxes": {
+                                                "Tax": {
+                                                    "Amount": 463.92
+                                                }
+                                            },
+                                            "BaseFare": {
+                                                "Amount": 1038
+                                            }
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 519
+                                        }
+                                    },
+                                    "PTC_FareBreakdown": {
+                                        "FareCalculation": {
+                                            "Text": "CMH DL X/NYC DL REK M220.80DL X/NYC DL CMH M220.80NUC441.60 PLUS77.00END ROE1.00 XFCMH4.5JFK4.5JFK4.5"
+                                        },
+                                        "FlightSegment": [{
+                                            "SegmentNumber": 1,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 3305,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-20T17:42",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 3305,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-20",
+                                                "NotValidBefore": "2016-08-20"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 2,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 446,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-20T21:16",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 446,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-20",
+                                                "NotValidBefore": "2016-08-20"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 3,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "KEF"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 246,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-27T10:30",
+                                            "ConnectionInd": "O",
+                                            "FlightNumber": 246,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-27",
+                                                "NotValidBefore": "2016-08-27"
+                                            }
+                                        }, {
+                                            "SegmentNumber": 4,
+                                            "Status": "OK",
+                                            "OriginLocation": {
+                                                "LocationCode": "JFK"
+                                            },
+                                            "MarketingAirline": {
+                                                "FlightNumber": 4208,
+                                                "Code": "DL"
+                                            },
+                                            "DepartureDateTime": "08-27T14:59",
+                                            "ConnectionInd": "X",
+                                            "FlightNumber": 4208,
+                                            "FareBasis": {
+                                                "Code": "THB99US/LN6Y"
+                                            },
+                                            "ResBookDesigCode": "T",
+                                            "BaggageAllowance": {
+                                                "Number": "01P"
+                                            },
+                                            "ValidityDates": {
+                                                "NotValidAfter": "2016-08-27",
+                                                "NotValidBefore": "2016-08-27"
+                                            }
+                                        }, {
+                                            "OriginLocation": {
+                                                "LocationCode": "CMH"
+                                            }
+                                        }],
+                                        "ResTicketingRestrictions": ["LAST DAY TO PURCHASE 17AUG/1305", "GUARANTEED FARE APPL IF PURCHASED BEFORE 17AUG"],
+                                        "FareBasis": {
+                                            "Code": "THB99US/LN6Y/THB99US/LN6Y/THB99US/LN6Y/THB99US/LN6Y"
+                                        },
+                                        "FareSource": "ATPC",
+                                        "Endorsements": {
+                                            "Endorsement": [{
+                                                "Text": "BAG ALLOWANCE     -CMHKEF-01P/DL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-CMHKEF-USD100.00/DL/UP TO 50 POUNDS/23 KILOG",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "BAG ALLOWANCE     -KEFCMH-01P/DL/EACH PIECE UP TO 50 POUNDS/23",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "2NDCHECKED BAG FEE-KEFCMH-USD100.00/DL/UP TO 50 POUNDS/23 KILOG",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON ALLOWANCE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKKEF KEFJFK JFKCMH-01P/DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/CARRY ON HAND BAGGAGE",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CARRY ON CHARGES",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKKEF KEFJFK JFKCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "RRIER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "EMBARGOES-APPLY TO EACH PASSENGER",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "CMHJFK JFKCMH-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN HOLD NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "JFKKEF KEFJFK-DL",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN HOLD NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "PET IN CABIN NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED",
+                                                "type": "DOT_BAGGAGE"
+                                            }, {
+                                                "Text": "NONREF/PENALTY APPLIES",
+                                                "type": "SYSTEM_ENDORSEMENT"
+                                            }, {
+                                                "Text": "WPK77.0$N2.01$P1JCB$PU*77.0$RQ",
+                                                "type": "PRICING_PARAMETER"
+                                            }, {
+                                                "Text": "PRIVATE @",
+                                                "type": "PRIVATE_FARE"
+                                            }, {
+                                                "Text": "PRIVATE FARE APPLIED - CHECK RULES FOR CORRECT TICKETING",
+                                                "type": "WARNING"
+                                            }, {
+                                                "Text": "VALIDATING CARRIER - DL",
+                                                "type": "WARNING"
+                                            }]
+                                        }
+                                    },
+                                    "PrivateFareInformation": {
+                                        "PrivateFareType": "@",
+                                        "Text": "@"
+                                    }
+                                },
+                                "RPH": 2,
+                                "InputMessage": "WPK77.0N2.01P1JCBPU*77.0RQ",
+                                "StatusCode": "A",
+                                "NetTicketingInfo": {
+                                    "SellingFareDetails": {
+                                        "TotalFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 750.96
+                                        },
+                                        "Taxes": {
+                                            "Tax": [{
+                                                "TaxCode": "YR",
+                                                "Amount": 128,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "US",
+                                                "Amount": 35.6,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "YC",
+                                                "Amount": 5.5,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XY",
+                                                "Amount": 7,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XA",
+                                                "Amount": 3.96,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "AY",
+                                                "Amount": 11.2,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "IS",
+                                                "Amount": 20.4,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "ZU",
+                                                "Amount": 6.8,
+                                                "Exempt": false
+                                            }, {
+                                                "TaxCode": "XF",
+                                                "Amount": 13.5,
+                                                "Exempt": false
+                                            }]
+                                        },
+                                        "FareCalc": "CMH DL X/NYC DL REK M220.80DL X/NYC DL CMH M220.80NUC441.60 PLUS77.00END ROE1.00 XFCMH4.5JFK4.5JFK4.5",
+                                        "TotalTax": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 231.96
+                                        },
+                                        "BaseFare": {
+                                            "CurrencyCode": "USD",
+                                            "Amount": 519
+                                        },
+                                        "Commission": {
+                                            "CurrencyCode": "USD",
+                                            "Percent": {
+                                                "Type": "NET",
+                                                "content": 0
+                                            },
+                                            "Amount": 0
+                                        }
+                                    }
+                                }
+                            },
+                            "markup": 77,
+                            "MiscInformation": {
+                                "BaggageFees": {
+                                    "Text": ["BAG ALLOWANCE     -CMHKEF-01P/DL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-CMHKEF-USD100.00/DL/UP TO 50 POUNDS/23 KILOG", "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "BAG ALLOWANCE     -KEFCMH-01P/DL/EACH PIECE UP TO 50 POUNDS/23", "KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "2NDCHECKED BAG FEE-KEFCMH-USD100.00/DL/UP TO 50 POUNDS/23 KILOG", "RAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS", "CARRY ON ALLOWANCE", "CMHJFK JFKKEF KEFJFK JFKCMH-01P/DL", "01/CARRY ON HAND BAGGAGE", "01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS", "CARRY ON CHARGES", "CMHJFK JFKKEF KEFJFK JFKCMH-DL-CARRY ON FEES UNKNOWN-CONTACT CA", "RRIER", "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON", "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/", "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./", "EMBARGOES-APPLY TO EACH PASSENGER", "CMHJFK JFKCMH-DL", "PET IN HOLD NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED", "JFKKEF KEFJFK-DL", "PET IN HOLD NOT PERMITTED", "PET IN CABIN NOT PERMITTED", "OVER 70 POUNDS/32 KILOGRAMS NOT PERMITTED", "SPORTING EQUIPMENT/CANOE/KAYAK NOT PERMITTED"]
+                                },
+                                "SignatureLine": {
+                                    "Status": "ACTIVE",
+                                    "CommissionAmount": 0,
+                                    "ExpirationDateTime": "00:00",
+                                    "CommissionID": "N",
+                                    "Text": "T7IG T7IG*AWS 1323/16AUG16",
+                                    "Source": "SYS"
+                                },
+                                "GlobalNetRemit": {
+                                    "SellingFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "NetFare": {
+                                        "TotalFare": {
+                                            "Amount": 0
+                                        },
+                                        "Taxes": "",
+                                        "BaseFare": "",
+                                        "EquivFare": ""
+                                    },
+                                    "Text": "IT"
+                                }
+                            },
+                            "PriceQuotePlus": {
+                                "VerifyFareCalc": false,
+                                "NUCSuppresion": false,
+                                "IT_BT_Fare": "IT",
+                                "TicketingInstructionsInfo": "",
+                                "DomesticIntlInd": "I",
+                                "PassengerInfo": {
+                                    "PassengerData": [{
+                                        "NameNumber": 1.01,
+                                        "content": "ZANE/CLAUDIA PRESTON"
+                                    }, {
+                                        "NameNumber": 2.01,
+                                        "content": "ZANE/STEVEN"
+                                    }]
+                                },
+                                "ManualFare": false,
+                                "SubjToGovtApproval": false,
+                                "DiscountAmount": 0,
+                                "PricingStatus": "S",
+                                "SystemIndicator": "S",
+                                "NegotiatedFare": true,
+                                "DisplayOnly": false,
+                                "ItineraryChanged": false
+                            },
+                            "groupDate": "1323/16AUG16",
+                            "RPH": 2,
+                            "totalWithMarkup": 750.96,
+                            "via": "T7IG*AWS",
+                            "pricingType": "NET",
+                            "base": 442
+                        }],
+                        "PriceQuoteTotals": {
+                            "TotalFare": {
+                                "Amount": 2849.84
+                            },
+                            "Taxes": {
+                                "Tax": {
+                                    "Amount": 927.84
+                                }
+                            },
+                            "BaseFare": {
+                                "Amount": 1922
+                            }
+                        }
+                    },
+                    "ReservationItems": {
+                        "Item": [{
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "UpdatedArrivalTime": "08-20T19:45",
+                                "ConnectionInd": "O",
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 2.03,
+                                "ResBookDesigCode": "T",
+                                "SegmentNumber": "0001",
+                                "ArrivalDateTime": "08-20T19:45",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "SHUTTLE AMERICA - DELTA CONNECTION",
+                                    "FlightNumber": 3305,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "TerminalCode": 4,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 4"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 6,
+                                "MarketingAirline": {
+                                    "FlightNumber": 3305,
+                                    "Code": "DL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY SHUTTLE AMERICA - DELTA CONNECTION",
+                                "UpdatedDepartureTime": "08-20T17:42",
+                                "AirMilesFlown": "0483",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "001",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "ERJ"
+                                },
+                                "DepartureDateTime": "2016-08-20T17:42",
+                                "FlightNumber": 3305,
+                                "SupplierRef": {
+                                    "ID": "DCDL*HJD755"
+                                },
+                                "hasStops": false,
+                                "dep": "20Aug",
+                                "dept": "17:42",
+                                "arr": "20Aug",
+                                "arrt": "19:45"
+                            },
+                            "RPH": 1
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 4,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 4"
+                                },
+                                "UpdatedArrivalTime": "08-21T07:00",
+                                "ConnectionInd": "I",
+                                "Meal": {
+                                    "Code": "S"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 5.44,
+                                "ResBookDesigCode": "T",
+                                "SegmentNumber": "0002",
+                                "ArrivalDateTime": "08-21T07:00",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "LocationCode": "KEF"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 6,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0446",
+                                    "Code": "DL"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "08-20T21:16",
+                                "AirMilesFlown": 2593,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "001",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 757
+                                },
+                                "DepartureDateTime": "2016-08-20T21:16",
+                                "FlightNumber": "0446",
+                                "SupplierRef": {
+                                    "ID": "DCDL*HJD755"
+                                },
+                                "hasStops": false,
+                                "dep": "20Aug",
+                                "dept": "21:16",
+                                "arr": "21Aug",
+                                "arrt": "07:00"
+                            },
+                            "RPH": 2
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "LocationCode": "KEF"
+                                },
+                                "UpdatedArrivalTime": "08-27T12:25",
+                                "ConnectionInd": "O",
+                                "Meal": {
+                                    "Code": "S"
+                                },
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 5.55,
+                                "ResBookDesigCode": "T",
+                                "SegmentNumber": "0003",
+                                "ArrivalDateTime": "08-27T12:25",
+                                "SpecialMeal": false,
+                                "DestinationLocation": {
+                                    "TerminalCode": 4,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 4"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 6,
+                                "MarketingAirline": {
+                                    "FlightNumber": "0246",
+                                    "Code": "DL"
+                                },
+                                "SmokingAllowed": false,
+                                "UpdatedDepartureTime": "08-27T10:30",
+                                "AirMilesFlown": 2593,
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "002",
+                                    "Sequence": 1,
+                                    "Ind": "O"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": 757
+                                },
+                                "DepartureDateTime": "2016-08-27T10:30",
+                                "FlightNumber": "0246",
+                                "SupplierRef": {
+                                    "ID": "DCDL*HJD755"
+                                },
+                                "hasStops": false,
+                                "dep": "27Aug",
+                                "dept": "10:30",
+                                "arr": "27Aug",
+                                "arrt": "12:25"
+                            },
+                            "RPH": 3
+                        }, {
+                            "FlightSegment": {
+                                "OriginLocation": {
+                                    "TerminalCode": 4,
+                                    "LocationCode": "JFK",
+                                    "Terminal": "TERMINAL 4"
+                                },
+                                "UpdatedArrivalTime": "08-27T16:59",
+                                "ConnectionInd": "I",
+                                "NumberInParty": "02",
+                                "StopQuantity": "00",
+                                "ElapsedTime": 2,
+                                "ResBookDesigCode": "T",
+                                "SegmentNumber": "0004",
+                                "ArrivalDateTime": "08-27T16:59",
+                                "SpecialMeal": false,
+                                "OperatingAirline": {
+                                    "CompanyShortName": "SHUTTLE AMERICA - DELTA CONNECTION",
+                                    "FlightNumber": 4208,
+                                    "Code": "DL"
+                                },
+                                "DestinationLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "Status": "HK",
+                                "DayOfWeekInd": 6,
+                                "MarketingAirline": {
+                                    "FlightNumber": 4208,
+                                    "Code": "DL"
+                                },
+                                "SmokingAllowed": false,
+                                "Text": "OPERATED BY SHUTTLE AMERICA - DELTA CONNECTION",
+                                "UpdatedDepartureTime": "08-27T14:59",
+                                "AirMilesFlown": "0483",
+                                "IsPast": false,
+                                "MarriageGrp": {
+                                    "Group": "002",
+                                    "Sequence": 2,
+                                    "Ind": "I"
+                                },
+                                "eTicket": true,
+                                "Equipment": {
+                                    "AirEquipType": "ERJ"
+                                },
+                                "DepartureDateTime": "2016-08-27T14:59",
+                                "FlightNumber": 4208,
+                                "SupplierRef": {
+                                    "ID": "DCDL*HJD755"
+                                },
+                                "hasStops": false,
+                                "dep": "27Aug",
+                                "dept": "14:59",
+                                "arr": "27Aug",
+                                "arrt": "16:59"
+                            },
+                            "RPH": 4
+                        }, {
+                            "RPH": 5,
+                            "MiscSegment": {
+                                "SegmentNumber": "0005",
+                                "Status": "GK",
+                                "IsPast": false,
+                                "OriginLocation": {
+                                    "LocationCode": "CMH"
+                                },
+                                "Type": "OTH",
+                                "DayOfWeekInd": 7,
+                                "DepartureDateTime": "07-02",
+                                "NumberInParty": "01",
+                                "Text": ["HK//", "THANK YOU FOR YOUR BUSINESS"],
+                                "Vendor": {
+                                    "Code": "YY"
+                                }
+                            }
+                        }, {
+                            "RPH": 6,
+                            "Seats": {
+                                "Seat": [{
+                                    "SegmentNumber": "0001",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "CMH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "JFK"
+                                        }
+                                    },
+                                    "Number": "18B",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "AM"
+                                }, {
+                                    "SegmentNumber": "0001",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "CMH"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "JFK"
+                                        }
+                                    },
+                                    "Number": "18C",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "M"
+                                }, {
+                                    "SegmentNumber": "0004",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "JFK"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "CMH"
+                                        }
+                                    },
+                                    "Number": "14B",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 1.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "AM"
+                                }, {
+                                    "SegmentNumber": "0004",
+                                    "Status": "HRS",
+                                    "FlightSegment": {
+                                        "OriginLocation": {
+                                            "LocationCode": "JFK"
+                                        },
+                                        "DestinationLocation": {
+                                            "LocationCode": "CMH"
+                                        }
+                                    },
+                                    "Number": "14C",
+                                    "SegmentStatus": "KK",
+                                    "NameNumber": 2.01,
+                                    "Changed": "N",
+                                    "SmokingPreference": "N",
+                                    "TypeTwo": "M"
+                                }]
+                            }
+                        }]
+                    }
+                },
+                "AccountingInfo": [{
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "4XXXXXXXXXXX8887",
+                                    "Code": "VI"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 77
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 1.1,
+                        "content": "ZANE CLAUDIA PRESTON"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 231.96
+                        }
+                    },
+                    "Airline": {
+                        "Code": "DL"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "CurrencyCode": "USD",
+                        "Amount": 519
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854578176
+                        }
+                    }
+                }, {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": "CC",
+                            "CC_Info": {
+                                "PaymentCard": {
+                                    "Number": "4XXXXXXXXXXX8887",
+                                    "Code": "VI"
+                                }
+                            }
+                        },
+                        "Commission": {
+                            "Amount": 77
+                        }
+                    },
+                    "PersonName": {
+                        "NameNumber": 2.1,
+                        "content": "ZANE STEVEN"
+                    },
+                    "Taxes": {
+                        "Tax": {
+                            "Amount": 231.96
+                        }
+                    },
+                    "Airline": {
+                        "Code": "DL"
+                    },
+                    "FareApplication": "ONE",
+                    "BaseFare": {
+                        "CurrencyCode": "USD",
+                        "Amount": 519
+                    },
+                    "TicketingInfo": {
+                        "Exchange": {
+                            "Ind": false
+                        },
+                        "Ticketing": {
+                            "ConjunctedCount": 1
+                        },
+                        "eTicket": {
+                            "Ind": true
+                        },
+                        "TariffBasis": "F"
+                    },
+                    "DocumentInfo": {
+                        "Document": {
+                            "Number": 7854578177
+                        }
+                    }
+                }],
+                "ItineraryRef": {
+                    "PrimeHostID": "1S",
+                    "InhibitCode": "U",
+                    "CustomerIdentifier": "N212391231",
+                    "ID": "JRWZQG",
+                    "AirExtras": false,
+                    "PartitionID": "AA",
+                    "Source": {
+                        "HomePseudoCityCode": "T7IG",
+                        "LastUpdateDateTime": "2016-08-16T12:27",
+                        "ReceivedFrom": "V",
+                        "CreateDateTime": "2016-08-16T12:05",
+                        "SequenceNumber": 8,
+                        "AAA_PseudoCityCode": "WR17",
+                        "CreationAgent": "AVN",
+                        "PseudoCityCode": "T7IG"
+                    }
+                },
+                "CustomerInfo": {
+                    "PaymentInfo": {
+                        "Payment": {
+                            "Form": {
+                                "Text": "*VI4XXXXXXXXXXX8887¥04/18",
+                                "RPH": "001"
+                            },
+                            "CC_Info": {
+                                "PreferredCustomer": "PREFERRED CUSTOMER STATUS - AUTO AVS NOT REQUESTED"
+                            }
+                        }
+                    },
+                    "PersonName": [{
+                        "tsa": "HK1/DB/22OCT57/F/ZANE/CLAUDIA PRESTON",
+                        "netType": "JCB",
+                        "GivenName": "CLAUDIA PRESTON",
+                        "WithInfant": false,
+                        "RPH": 1,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "ZANE/CLAUDIA PRESTON"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1/DB/22OCT57/F/ZANE/CLAUDIA PRESTON"
+                            },
+                            "RPH": "001"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "ZANE/CLAUDIA PRESTON"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 CMHJFK3305T20AUG/0067854578176C1"
+                            },
+                            "RPH": "003"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "ZANE/CLAUDIA PRESTON"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 JFKKEF0446T20AUG/0067854578176C2"
+                            },
+                            "RPH": "004"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "ZANE/CLAUDIA PRESTON"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 KEFJFK0246T27AUG/0067854578176C3"
+                            },
+                            "RPH": "005"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 1.01,
+                                    "content": "ZANE/CLAUDIA PRESTON"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 JFKCMH4208T27AUG/0067854578176C4"
+                            },
+                            "RPH": "006"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 1.01,
+                        "commType": "ADT",
+                        "dob": "22OCT57",
+                        "sage": "58",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "ZANE",
+                        "age": 58,
+                        "child": false
+                    }, {
+                        "tsa": "HK1/DB/05SEP59/M/ZANE/STEVEN",
+                        "netType": "JCB",
+                        "GivenName": "STEVEN",
+                        "WithInfant": false,
+                        "RPH": 2,
+                        "services": [{
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "DOCS",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "ZANE/STEVEN"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1/DB/05SEP59/M/ZANE/STEVEN"
+                            },
+                            "RPH": "002"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "ZANE/STEVEN"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 CMHJFK3305T20AUG/0067854578177C1"
+                            },
+                            "RPH": "007"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "ZANE/STEVEN"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 JFKKEF0446T20AUG/0067854578177C2"
+                            },
+                            "RPH": "008"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "ZANE/STEVEN"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 KEFJFK0246T27AUG/0067854578177C3"
+                            },
+                            "RPH": "009"
+                        }, {
+                            "Type": "GFX",
+                            "Service": {
+                                "SSR_Type": "TKNE",
+                                "PersonName": {
+                                    "NameNumber": 2.01,
+                                    "content": "ZANE/STEVEN"
+                                },
+                                "SSR_Code": "SSR",
+                                "Airline": {
+                                    "Code": "DL"
+                                },
+                                "Text": "HK1 JFKCMH4208T27AUG/0067854578177C4"
+                            },
+                            "RPH": "010"
+                        }],
+                        "infant": false,
+                        "PassengerType": "ADT",
+                        "NameNumber": 2.01,
+                        "commType": "ADT",
+                        "dob": "05SEP59",
+                        "sage": "56",
+                        "pubType": "ADT",
+                        "adult": true,
+                        "Surname": "ZANE",
+                        "age": 56,
+                        "child": false
+                    }],
+                    "ContactNumbers": {
+                        "ContactNumber": {
+                            "Phone": "646 480 8194",
+                            "LocationCode": "NYC",
+                            "RPH": "001"
+                        }
+                    }
+                },
+                "SpecialServiceInfo": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1/DB/22OCT57/F/ZANE/CLAUDIA PRESTON"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1/DB/05SEP59/M/ZANE/STEVEN"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 CMHJFK3305T20AUG/0067854578176C1"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKKEF0446T20AUG/0067854578176C2"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 KEFJFK0246T27AUG/0067854578176C3"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKCMH4208T27AUG/0067854578176C4"
+                    },
+                    "RPH": "006"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 CMHJFK3305T20AUG/0067854578177C1"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKKEF0446T20AUG/0067854578177C2"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 KEFJFK0246T27AUG/0067854578177C3"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKCMH4208T27AUG/0067854578177C4"
+                    },
+                    "RPH": "010"
+                }],
+                "RemarkInfo": {
+                    "Remark": [{
+                        "Type": "Historical",
+                        "Text": "AUTH-VISA/BA8887/16AUG/01411471368231346740",
+                        "RPH": "002"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-APV/00546D/00/USD1501.92",
+                        "RPH": "003"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-CSC NOT SUPPLIED/",
+                        "RPH": "004"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "AUTH-AVS NOT SUPPORTED/",
+                        "RPH": "005"
+                    }, {
+                        "Type": "Historical",
+                        "Text": "XXAUTH/00546D/VI4XXXXXXXXXXX8887/DL/USD1501.92/16AUG/S",
+                        "RPH": "006"
+                    }, {
+                        "Type": "Invoice",
+                        "Text": "S*UD25 N",
+                        "RPH": "007"
+                    }, {
+                        "Type": "Alpha-Coded",
+                        "Text": "16AUG/0127 PM/ITIN SENT TO MAIL SERVER FOR PROCESSING",
+                        "RPH": "008",
+                        "Code": "Q"
+                    }]
+                }
+            },
+            "ApplicationResults": {
+                "Success": {
+                    "timeStamp": "2016-08-16T14:29:25.454-05:00"
+                },
+                "status": "Complete"
+            },
+            "xmlns:ns3": "http://services.sabre.com/res/tir/v3_6",
+            "xmlns:ns4": "http://services.sabre.com/STL/v01"
+        },
+        "pnrNumber": "JRWZQG",
+        "error": false,
+        "hasTSA": true,
+        "displayQuotes": true,
+        "persons": {
+            "NN_1.01": {
+                "tsa": "HK1/DB/22OCT57/F/ZANE/CLAUDIA PRESTON",
+                "netType": "JCB",
+                "GivenName": "CLAUDIA PRESTON",
+                "WithInfant": false,
+                "RPH": 1,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1/DB/22OCT57/F/ZANE/CLAUDIA PRESTON"
+                    },
+                    "RPH": "001"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 CMHJFK3305T20AUG/0067854578176C1"
+                    },
+                    "RPH": "003"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKKEF0446T20AUG/0067854578176C2"
+                    },
+                    "RPH": "004"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 KEFJFK0246T27AUG/0067854578176C3"
+                    },
+                    "RPH": "005"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 1.01,
+                            "content": "ZANE/CLAUDIA PRESTON"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKCMH4208T27AUG/0067854578176C4"
+                    },
+                    "RPH": "006"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 1.01,
+                "commType": "ADT",
+                "dob": "22OCT57",
+                "sage": "58",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "ZANE",
+                "age": 58,
+                "child": false
+            },
+            "NN_2.01": {
+                "tsa": "HK1/DB/05SEP59/M/ZANE/STEVEN",
+                "netType": "JCB",
+                "GivenName": "STEVEN",
+                "WithInfant": false,
+                "RPH": 2,
+                "services": [{
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "DOCS",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1/DB/05SEP59/M/ZANE/STEVEN"
+                    },
+                    "RPH": "002"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 CMHJFK3305T20AUG/0067854578177C1"
+                    },
+                    "RPH": "007"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKKEF0446T20AUG/0067854578177C2"
+                    },
+                    "RPH": "008"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 KEFJFK0246T27AUG/0067854578177C3"
+                    },
+                    "RPH": "009"
+                }, {
+                    "Type": "GFX",
+                    "Service": {
+                        "SSR_Type": "TKNE",
+                        "PersonName": {
+                            "NameNumber": 2.01,
+                            "content": "ZANE/STEVEN"
+                        },
+                        "SSR_Code": "SSR",
+                        "Airline": {
+                            "Code": "DL"
+                        },
+                        "Text": "HK1 JFKCMH4208T27AUG/0067854578177C4"
+                    },
+                    "RPH": "010"
+                }],
+                "infant": false,
+                "PassengerType": "ADT",
+                "NameNumber": 2.01,
+                "commType": "ADT",
+                "dob": "05SEP59",
+                "sage": "56",
+                "pubType": "ADT",
+                "adult": true,
+                "Surname": "ZANE",
+                "age": 56,
+                "child": false
+            }
+        },
+        "hasItinerary": true,
+        "hasTSAFailureCount": 0,
+        "hasFormOfPayment": true
+    },
+    "validations": [{
+        "passed": true,
+        "message": "Travel Agency Match: N212391231",
+        "id": 0
+    }, {
+        "passed": false,
+        "message": "Travel Agent Match: V/T7IG",
+        "id": 1
+    }, {
+        "passed": true,
+        "message": "TSA Info for 1.01 ZANE/CLAUDIA PRESTON",
+        "id": 2
+    }, {
+        "passed": true,
+        "message": "TSA Info for 2.01 ZANE/STEVEN",
+        "id": 3
+    }, {
+        "passed": true,
+        "message": "Payment Info  *VI4XXXXXXXXXXX8887¥04/18",
+        "id": 4
+    }],
+    "errors": []
+}
